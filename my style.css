@@ -220,10 +220,8 @@ nav a:hover{
 
 img{
   padding: 60px;
+  padding-left: 40px;
   display: block;
-  position: relative;
-  top:400px
-
 }
 h1{
   font-size: 40px;

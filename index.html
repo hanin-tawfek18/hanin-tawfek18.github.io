@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Courses</title>
+  <link rel="stylesheet" href="css folder/my style.css">
+  <link rel="stylesheet" href="css folder/style.css">
+  <link rel="stylesheet" href="css folder/normalize.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ubuntu&effect=fire">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+  <script src="js folder/script.js"> </script>
+    
+  <script>
+    window.addEventListener('mouseup' , function(event)
+     {
+        var box = document.getElementById('menu')
+        if(event.target != box)
+        box.style.width = '0px'
+     }
+</script>
+
+</head>
+<body>
+  
+  <header>
+    
+    <div class="dropdown" style="top: 0;">
+       <button onclick = "myFunction()"  class="dropbtn">Search-Box</button>
+         <div id="myDropdown" class="dropdown-content">
+           <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+           <a href="#php">php</a>
+           <a href="#c">c</a>
+           <a href="c++.html">c++</a>
+           <a href="#js">js</a>
+           <a href="#profile">profile</a>
+           <a href="Log in.html">login</a>
+           <a href="#python">python</a>
+         </div>
+    <div style="font-size:50px; cursor:pointer; position: absolute;  margin-left: 840px; top: 0; " onclick="openfunction()">&#9776; </div>
+    </div>
+    <a class="logo" href="Log in.html" target="_blank">
+    <img class="logo" src="images/sign up.jpg" alt="" />
+    <div id="menu" class="sidemenu"  >
+      <a href="" class="closebtn">&times;</a>
+      <div class="all-menu">
+        <a href="index.html">Home</a>
+       <a href="#">Categories</a>
+       <a href="programmingLinked.html">links</a>
+       <a href="payment.html">Payment</a>
+       <a href="#">Profile</a>
+       
+      </div>
+      
+    </div>
+    
+    <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none; position: absolute; top: 15px; left: 150px;">Coursaty</a>
+    <label  class="switch" onclick="myFunctionMode()">Dark-Mode
+      <input type="range">
+      <span class="slider round"></span>
+    </label>
+   
+  </header>
+ 
+  <nav>
+    <a href="#">php</a>
+    <a href="#">sql</a>
+    <a href="#">Kotlin</a>
+    <a href="#">C</a>
+    <a href="c++.html">C++</a>
+    <a href="#">Python</a>
+    <a href="#">java script</a>
+  </nav>
+  
+  <div class="landing">
+   
+    <div class="intro-text" style="margin-top: 100px;">
+       
+        <h1>Aspire,learn,advance.</h1>
+        <br>
+        <p>Skills for your present (and your future). Get started with us.</p>
+        <br>
+        
+        </div>
+      </div>  
+  </div>
+  
+  <h2 id="UU">
+    All Courses:-
+   
+    <br>
+  </h2>
+  
+  <img src="images/php.jpg" width="40%">
+  <img src="images/c++.jpg" width="40%">
+  <img src="images/python.jpg" width="40%">
+  <img src="images/js.jpg" width="40%">
+  <img src="images/sql.jpg" width="40%">
+  <img src="images/c.jpg"  width="40%">
+  <img src="images/kotlin.png" width="50%" style="position: absolute; right: 270px; top:2670px ; ">
+
+  <button class="open-button" onclick="openForm()">Chat</button>
+  <div class="chat-popup" id="myForm">
+   <form  class="form-container">
+    <h1 style="margin-top: 10px;">Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+   </form>
+  </div>
+  <h1 id="SS">Recommend Website</h1>
+
+  <footer style="height: 35vh;">
+    <div class="content-left">
+      <h4 id="A">About Us</h4>
+      <p id="all">
+        This site offers many languages and<br> you can browse the site and<br> choose the right specialty for you <br>and is free to study.
+      </p> 
+      <a href="https://m.facebook.com/login/?refsrc=deprecated" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div> 
+   <div class="content-center">
+      <h4 id="N" style="position:absolute; padding-top: 4030px;">Adress</h4>
+      <div class="place">
+        <span class="fas fa-map-marker-alt" style="position: absolute; padding-top: 4100px; color: #000;"></span>
+        <span class="text" style="position: absolute; padding-top: 4100px;">HelwanUnivestriy, Helwan</span>
+      </div>
+      <div class="phone">
+        <span class="fas fa-phone-alt" style="position: absolute; padding-top: 4165px; color: #000;"></span>
+        <span class="text" style="position: absolute; padding-top: 4165px;">+20-766032160</span>
+      </div>
+      <div class="email">
+          <span class="fas fa-envelope " style="position: absolute; padding-top: 4240px; color: #000;"></span>
+      <span class="text" style="position: absolute; padding-top: 4240px;">xyz@example.com</span>
+     </div>
+     <div class="content-right" >
+      <h4 id="Q" style="position:absolute; padding-top: 4030px;">Contact Us</h4>
+      <div class="container">
+        <form style="position: absolute; top: 4070px; margin-left: 1100px;">
+         <label for="ename">Email</label>
+         <input type="text" id="ename" name="email" placeholder="Your email..">
+         <label for="subject" style="position: absolute; top: 60px; right: 230px;">Subject</label>
+         <textarea id="subject" name="subject" placeholder="Write something.." style="height:140px; position: absolute;margin-top: 60px; right: 15px;"></textarea>
+         <input type="submit" value="Submit" style="position: absolute; top: 160px; right:250px ;">
+        </form>
+      </div>      
+    </div>
+ </footer>
+</body>
+</html>

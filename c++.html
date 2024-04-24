@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Courses</title>
+  <link rel="stylesheet" href="css folder/my style.css">
+  <link rel="stylesheet" href="css folder/normalize.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ubuntu&effect=fire">
+  <script src="js folder/script2.js"> </script>
+    
+  <script>
+    window.addEventListener('mouseup' , function(event)
+     {
+        var box = document.getElementById('menu')
+        if(event.target != box)
+        box.style.width = '0px'
+     }
+</script>
+
+</head>
+<body>
+  
+  <header>
+    
+    <div style="font-size:50px; cursor:pointer;position: absolute;  margin-left: 1340px; top: 0;"onclick="openfunction()">
+      &#9776;
+    </div>
+    <a class="logo" href="Log in.html" target="_blank">
+    <img class="logo" src="images/sign up.jpg" alt="" style="position: absolute; left: 0;" />
+    <div id="menu" class="sidemenu"  >
+      <a href="" class="closebtn">&times;</a>
+      <div class="all-menu">
+        <a href="index.html">Home</a>
+        <a href="#">Categories</a>
+        <a href="programmingLinked.html">links</a>
+        <a href="payment.html">Payment</a>
+        <a href="#">Profile</a>
+      </div>
+       
+       
+    </div>
+    <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none;position: absolute; top: 15px; left: 90px;">Coursaty</a>
+    <label  class="switch" onclick="myFunctionMode()"> Dark-Mode
+      <input type="range">
+      <span class="slider round"></span>
+    </label>
+   
+  </header>
+  <nav>
+    <a href="#">php</a>
+    <a href="#">sql</a>
+    <a href="#">Kotlin</a>
+    <a href="#">C</a>
+    <a href="c++.html">C++</a>
+    <a href="#">Python</a>
+    <a href="#">java script</a>
+  </nav>
+
+ <section id="HN">C++</section>
+
+ <video src="media/c++-video.mp4" type="video/mp4" controls width="1400px" height="700px" autoplay  ></video>
+
+ <p id="Y">C++<br> 
+   <pre style="color:chocolate;">is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup.<br>
+   First released in 1985 as an extension of the C programming language, it has since expanded significantly over time;<br> as of 1997,
+   C++ has object-oriented, generic, and functional features,<br> in addition to facilities for low-level memory manipulation for making things like:<br>
+   microcomputers or to make operating systems like Linux or Windows.
+   <br> It is almost always implemented as a compiled language, and many vendors provide C++ compilers,
+   <br> including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM.</pre>
+ </p>  
+ <h1 id="Z">Advantage And DisAdvantage:-</h1>     
+ <table style="border: 5px solid black;">
+  <tr>
+    <th style=" border: 5px solid black;">Advantage</th>
+    <th style="text-align: center; background-color:cornflowerblue;  border: 5px solid black;">DisAdvantage</th>
+  
+  </tr>
+  <tr>
+    <td style=" border: 5px solid black;"><h3><mark>Portability:</mark> </h3>
+      Programs written in C++ can often be executed on other platforms without any further ado.
+    </td>
+    <td style=" border: 5px solid black;"><h3> <mark>Complex:</mark></h3>Writing programs in C++ can be challenging, especially for developers more familiar with the niceties of modern programming languages. 
+      For one thing, modern languages often take care of a lot of details for you, details that C++ requires you to manually implement and keep track of.
+      These include things like pointers and memory management.
+    </td>
+  </tr>
+  <tr>
+    <td style=" border: 5px solid black;"><h3><mark>Object-Oriented:</mark></h3>C++ originally extended on C to add object-oriented features, and it shows in C++’s dedication to object-oriented principles. This gives developers all the advantages that come with object-oriented programming</td>
+    <td style=" border: 5px solid black;"><h3><mark>Lack of Garbage Collection:</mark> </h3>This is also tied with C++’s complexity. Languages with garbage collection essentially manage memory allocation for you, tracking variables and disregarding what is no longer in use automatically. But garbage collection often comes with a high performance impact, and it removes a degree of low-level control.
+      C++ opts to keep the performance and control, which leaves developers the task of carefully, conscientiously, and manually managing memory usage.
+    </td>
+  </tr>
+  <tr>
+    <td style=" border: 5px solid black;"><h3><mark>Efficiency:</mark></h3>
+      C++ runs close to metal, meaning that it runs close to hardware limits. This makes C++ programs capable of running faster and lighter than programs in many other languages. It also makes C++ ideal for developing programs under heavy hardware limitations
+    </td>
+    <td style=" border: 5px solid black;"><h3><mark>Unsafe:</mark> </h3>Because of the low-level memory management mentioned above, C++ programs tend to be considered unsafe from a memory perspective.
+     C++’s use of pointers and its potential for incorrect typing of variables can lead to memory leaks.
+    </td>
+  </tr>  
+ </table>
+
+  <h2 id="PP">C++ Syntax</h2>
+  <pre>
+    <code style="font-size: 30px;">
+    #include iostream
+    using namespace std;
+
+    int main() {
+    cout << "Hello World!";
+    return 0;
+    }
+    </code>
+  </pre>
+     
+  <ol>
+    <li><b style="color: darkcyan; font-size: 25px;">#include <iostream></b> is a header file library that lets us work with input and output objects, such as cout (used in line 5).
+     Header files add functionality to C++ programs</li>
+    <li>using namespace <b style="color: darkcyan; font-size: 25px;">std</b> means that we can use names for objects and variables from the standard library.</li>
+    <li><b style="color: darkcyan; font-size: 25px;">A blank line.</b> C++ ignores white space. But we use it to make the code more readable.</li>
+    <li>Another thing that always appear in a C++ program is<b style="color: darkcyan; font-size: 25px;"> int main().</b> This is called a function.
+     Any code inside its curly brackets {} will be executed.</li>
+    <li><b style="color: darkcyan; font-size: 25px;">cout </b>(pronounced "see-out") is an object used together with the insertion operator (<<) to output/print text</li>
+    <li><b style="color: darkcyan; font-size: 25px;">return 0</b> ends the main function.</li>
+    <li>Do not forget to add the <b style="color: darkcyan; font-size: 25px;">closing curly bracket }</b> to actually end the main function.</li>
+  </ol>
+  <p style="margin-top: 90px; font-size: 50px; color: rgba(137, 43, 226, 0.677); text-decoration: underline;">Plan to finish C++ Course:-</p>
+  <a href="https://youtu.be/XDuWyYxksXU?si=yLzBzMSmIsgiGPac" id="YN">C++ Playlist</a>
+  
+ <div class="firstRow">
+  <div class="column">
+    <table id="OPO">
+      <tr>
+        <th id="XYZ"> Week 1</th>
+        <th id="XYZ">Introduction & Syntax</th>
+      </tr>
+      <tr>
+        <td id="XZ">Week 2</td>
+        <td id="XZ">Variables</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 3</td>
+        <td id="XZ">Data Types</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 4</td>
+        <td id="XZ">Operators</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 5</td>
+        <td id="XZ">Control Flow – Condition</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 6</td>
+        <td id="XZ">Array & String</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 7</td>
+        <td id="XZ">Control Flow – Loop</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 8</td>
+        <td id="XZ">Function</td>
+      </tr>
+      <tr>
+        <td id="XZ">Week 9</td>
+        <td id="XZ">Containers – Vector</td>
+      </tr>
+    </table>
+  </div>
+  <div class="column2">
+    <table id="ABC">
+      <tr>
+        <th id="YZ" colspan="4" style="text-align: center; color: blueviolet; background-color: tan; padding: 12px 4px;">Weeks</th>
+      </tr>
+      <tr>
+        <td id="ZX">One</td>
+        <td id="ZX">Two</td>
+        <td>Three</td>
+      </tr>
+      <tr>
+        <td id="ZX">Four</td>
+        <td id="ZX">Five</td>
+        <td id="ZX">Six</td>
+      </tr>
+      <tr>
+        <td id="ZX">Seven</td>
+        <td id="ZX">Eight</td>
+        <td id="ZX">Nine</td>
+      </tr>
+    </table>
+  </div>
+ </div>
+ <section>
+    <h2 style="padding-left: 30px;">Notes and Advices</h2>
+    <pre>
+      Every C++ statement ends with a semicolon ;
+      The compiler ignores white spaces. However,
+      multiple lines makes the code more readable.
+
+
+      you should practise a lot of problem solving.
+      You have to be patient.
+      
+    </pre>
+    
+    
+  </section>
+  
+  

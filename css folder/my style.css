@@ -219,10 +219,8 @@ nav a:hover{
 }
 
 img{
-  padding: 60px;
-  padding-top:40px; 
+  padding: 100px;
   display: block;
-
 }
 h1{
   font-size: 40px;
@@ -354,6 +352,8 @@ footer {
   padding-right: 1006px;
   text-align: left;
   color: white;
+  position: static;
+  bottom: 0;
 }
 .content-left{
   display: block;
@@ -554,6 +554,6 @@ tr:nth-child(even) {
 }
 section{
   position: absolute;
-  top: 3200px;
-  right: 780px;
+  top: 3500px;
+  right: 880px;
 }

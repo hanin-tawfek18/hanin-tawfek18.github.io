@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C Programming Language </title>
+<link rel="stylesheet" href="css folder/C.css">
+</head>
+<body>
+    <header>
+    
+        <div style="font-size:50px; cursor:pointer;position: absolute;  margin-left: 1340px; top: 0;"onclick="openfunction()">
+          &#9776;
+        </div>
+        <a class="logo" href="Log in.html" target="_blank">
+        <img class="logo" src="images/sign up.jpg" alt="" style="position: absolute; left: 0;" />
+        <div id="menu" class="sidemenu"  >
+          <a href="" class="closebtn">&times;</a>
+          <div class="all-menu">
+            <a href="index.html">Home</a>
+            <a href="#">Categories</a>
+            <a href="programmingLinked.html">links</a>
+            <a href="payment.html">Payment</a>
+            <a href="#">Profile</a>
+          </div>
+           
+           
+        </div>
+        <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none;position: absolute; top: 15px; left: 90px;">Coursaty</a>
+        <label  class="switch" onclick="myFunctionMode()"> Dark-Mode
+          <input type="range">
+          <span class="slider round"></span>
+        </label>
+       
+    </header>
+    <nav>
+        <a href="#">php</a>
+        <a href="#">sql</a>
+        <a href="#">Kotlin</a>
+        <a href="C.html">C</a>
+        <a href="c++.html">C++</a>
+        <a href="#">Python</a>
+        <a href="#">java script</a>
+    </nav>
+    <div class="container">
+  
+     <h1>C Programming Language</h1>
+     <h2>Pros and Cons</h2>
+     <table>
+        <tr>
+            <th>Pros</th>
+            <th>Cons</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>A structured language that is independent of the operating system, as its instructions can be compiled to work on different platforms and systems such as Windows, Linux, macOS, and Android.</td>
+            <td>The C language does not implicitly support the OOP principle and only supports the procedural programming model. This makes reuse of the code limited and difficult to maintain large programs, but there are libraries that can expand the features of the language and add some object-oriented features to the language, such as the OOPC library.</td>
+        </tr>
+
+        <tr>
+            <td>The C language forms the basis for many other languages. Most modern programming languages ​​follow their own style of writing instructions.</td>
+            <td>The C language forces you to specify the type of the variable when declaring it, but it does not impose strict restrictions on the types of variables. For example, you can declare a variable of type int and use it later to store a value of type float. This may lead to some errors in the program.</td>
+        </tr>
+
+        <tr>
+            <td>The C programming language follows the procedural programming language model, which depends on dividing the problem into a series of procedures or steps that are called in a specific order to solve the problem. This method is easy to learn and understand.</td>
+            <td>The C language checks code errors at runtime, which makes it difficult to check code and correct code errors, especially in large projects.</td>
+        </tr>
+
+        <tr>
+            <td>The C language provides direct access to system resources, memory management, control and allocation, which helps in developing efficient and efficient programs.</td>
+            <td>The C language does not support the concept of exceptions, which is a programming concept that facilitates identifying and correcting programming errors.</td>
+        </tr>
+
+        <tr>
+            <td>C is extensible and provides developers with the concept of libraries that extend the functionality of the language. It also contains many built-in libraries that provide developers with ready-to-use functionality.</td>
+            <td>The C language does not support the concept of namespaces, which are useful programming features to prevent conflicts between variable or function names and help organize code.</td>
+        </tr>
+
+        <tr>
+            <td>The C language is versatile as it can be used to develop operating systems, device drivers, games, database systems, and many other applications.</td>
+            <td>....</td>
+        </tr>
+
+        <tr>
+            <td>C is a compiled programming language and is faster than interpreted programming languages.</td>
+            <td>....</td>
+        </tr>
+        
+     </tbody>
+     </table>
+
+  <div class="image-container">
+    <div class="comparison">
+    <h4>Uses Of C Language</h4>
+    <img src="data:image/png;base64,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"" alt="Uses Of C Language">
+    <p>1/Operating systems development: UNIX, Linux, Windows, and Apple OS.</p>
+        <p> 2/Programming auxiliary applications for the operating system. Most web browsers, for example, are programmed in the C language, and most browser add-ons are written in it.</p>
+            <p>3/Development of programming languages ​​and their interpreters Compilers or interpreters are programs that convert or translate high-level programming languages ​​into machine language, for example a Python Interpreter developed using the C language.</p>
+                <p> 4/Programming embedded applications, Internet of Things applications, embedded systems, and programming microcontrollers used in programming smart devices such as self-driving cars or smart robots because they provide direct control over the hardware.</p>
+                    <p> 5/Programming electronic games and developing game engines. Among the most famous games developed using the C language are Quake and Doom.</p>
+                        <p>6/Developing large web servers that need to handle a large number of requests simultaneously and process data quickly, such as Apache or Nginx.</p>
+                            <p>7/In general, the C language is generally suitable for developing all high-performance applications that need to perform many operations or require processing a large amount of data quickly.</p>
+
+  </div>
+  <div class="comparison">
+    <h3>Diffrence between C Language and C++ Language</h3>
+    <img src="data:image/jpeg;base64,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" alt="Diffrence between C Language and C++ Language">
+    <p>C is a foundational programming language known for its procedural or structural approach, emphasizing the sequence of operations to be executed. It allows direct interaction with hardware and offers efficient performance, making it ideal for developing operating systems, compilers, and embedded systems. C's design is characterized by its simplicity and the provision for low-level memory access, which contributes to its speed and portability across different platforms. The language supports modular programming through its rich library of pre-defined functions, facilitating the development of reusable code.</p>                    
+    <p>C++, on the other hand, extends C by integrating object-oriented programming (OOP) features, enhancing the language's capability to manage complex software systems. OOP in C++ focuses on data encapsulation, inheritance, and polymorphism, enabling developers to create programs using objects and classes. This paradigm shift allows for better organization of code and promotes code reusability and maintainability. C++ also introduces advanced memory management techniques, exception handling, templates for generic programming, and the Standard Template Library (STL) for a rich set of container classes and algorithms. These features, combined with the ability to perform low-level operations, make C++ a versatile choice for applications ranging from system software to game development, graphical applications, and real-time simulation.</p>
+  </div>
+  <div class="comparison">
+    <h5>An introductory video for the C programming language</h5>
+  </div>
+    <iframe width="50%" height="500" src="https://www.youtube-nocookie.com/embed/oWMk6xdHwhc?si=WvEBpa8Yp4I_9f0F&amp;start=1?rel=0"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <div class="comparison">
+        <h6>Course For Learning The C Programming Languge</h6>
+        <p>This Course Will Help you To Understand And Learn Everything in The C Language 'in arabic'</p>
+
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=-UZQsourAbJ9PvM7&amp;list=PLoiqjtgvXf9cgQbnEyRpT8FmtAZHUHG2O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+            <div class="label">
+                    <h6>Ways You Can Learn Programming Faster</h6>
+                </div>
+
+                <div class="yyy">
+                    <h7>1. Always Look for the Example Code</h7>
+                    <p>Figuring out how to program is about code. When you're first figuring out how to program, you should try to take a gander at, and attempt to see, each model. At the point when I initially figured out how to program, I would at times peruse the code example before the content and attempt to sort out what they did. It doesn't generally work, yet it constrained me to take a gander at the example cautiously, and it frequently helped make the programs clearer.</p>
+
+                </div>
+                <div class="yyy">
+                 <h8>2. Just Don't Only Read the Example Code - Run It</h8>  
+                 <p>Yet, when you're reading a programming guide/tutorial (or book), it's anything but difficult to take a gander at the example code and state “I get it, I get it, that bodes well.” Obviously, you may get it, yet you probably won't get it, and you simply don't have any experience with it. There's just a single method to discover - accomplish something with that code.</p> 
+                 <p>At that point, type the example code into a compiler. If you type it, rather than reordering it, you will truly constrain yourself to experience all that is there. Composing the code will drive you to focus on the subtleties of the sentence structure of the language—things like those entertaining semicolons that appear to pursue each line.</p>
+                 <p>Then compile it and run it. Ensure it does what you figure it does.</p>
+                 <p>At that point, change it. Software is the most handily changed hardware on earth. You can analyze effectively, attempt new things, see what occurs; the progressions will happen very quickly, and there is no danger of death or anarchy. The most effortless approach to learning new language highlights is to take some code that works one way and change it.</p>
+
+                </div>
+                <div class="yyy">
+                    <h9>3. Compose Your Own Code as Quickly as Time Permits</h9>
+                    <p>When you comprehend something about the language—or regardless of whether you're actually getting your head around it—begin composing test programs that utilize it. Now and again it's elusive to see what programs to compose. That is OK, you don't need to think of each thought toward the start.</p>
+                    <p>You can likewise re-implement the examples from the book or instructional exercise you are reading. Attempt to do as such without glancing back at the example code; it won't be as simple as it appears. This procedure can function well if you change the example code.</p>
+                    <p>If you can't think about a little program to compose, yet you have as a main priority a bigger program you need to actualize, similar to a game, you could begin assembling little pieces that you can later use for a game. If you use them later, you will get a similar helpful experience. </p>
+
+                </div>
+                <div class="yyy">
+                <h10>4. Figure Out How to Use a Debugger</h10>
+                <p> The sooner you learn great troubleshooting methods, the simpler it will be to figure out how to program.</p>
+                <p> The initial phase in doing so is to figure out how to utilize an IDE or tool called a debugger, which permits you to venture through your code.</p>
+                <p>A debugger will permit you to step line by line through a bit of code. It will allow you to see the estimations of factors and whether the code inside an “if statement” is executed. </p>
+                <p>A debugger can assist you with addressing inquiries regarding what your code is doing. </p>
+                <p>The last word about debuggers: In the first occasion when you find out about a debugger, it will take you longer to fix the issues with your code. After the 10th or so bug, it will truly begin to pay off. Furthermore, trust me, you will have far more than 10 bugs in your programming profession. </p>
+                <p>I regularly observed students reluctant to utilize a debugger. These understudies truly made life hard on themselves, taking ages to discover straightforward bugs. The sooner you figure out how to utilize a debugger, the sooner it will pay off. </p>
+
+                </div>
+                <div class="yyy">
+                    <h11> 5. Search Out More Sources</h11>
+                    <p>If you don't get something, there's a decent chance how it was clarified simply didn't click.</p>
+                    <p> To start with, search for elective clarifications. The web is loaded up with data about programming, and a few clarifications turn out better for various individuals; you may require pictures, another person may not. There are additionally loads of good books with point-by-point clarifications.</p>
+                    <p>Yet, if that doesn't work, the most effortless approach to sort out where your misconception lies is to ask another person. Yet, attempt to go past saying, "I don't comprehend. It would be ideal if you clarify." You're probably going to get a connection back to a similar content you didn't comprehend. All things considered, reword your comprehension of the content in your words. The more your inquiry uncovers about your opinion, the simpler it will be for a proficient master to respond to it. Programmers at times have gained notoriety for being cantankerous about addressing questions, however, I think the explanation is that they need to gain ground in a discussion, and that requires the two sides to invest effort. If you ask a savvy, nitty-gritty inquiry that shows you are figuring, you will by and large get great outcomes.</p>
+  
+                </div>
+
+</body>
+</html>

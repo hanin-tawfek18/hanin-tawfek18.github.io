@@ -195,16 +195,17 @@ nav a:hover{
   color: rgb(198, 153, 240);
   position: relative;
   right: 0;
-  left: 300px;
-  padding: 70px;
+  top: 20px;
+  left: 200px;
+  padding: 50px;
   font-size: 70px;
   font-style: oblique;
-  margin: 80px;
+  margin: 60px;
   border-style: outset;
-  border-width: medium;
+  border-width:medium;
   border-color: rgb(55, 44, 132);
   border: 10px solid darkblue;
-  border-radius: 30px;
+  border-radius: 200px;
   
 }
 .dark-mode {

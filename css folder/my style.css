@@ -33,7 +33,7 @@ header{
 nav {
   list-style-type: none;
   overflow: hidden;
-  font-size: 9px;
+  font-size: 20px;
   margin: 0;
   padding: 4px;
   background-color: #dddddd;
@@ -342,7 +342,9 @@ th:first-child  {
   opacity: 1;
 }
 #SS{
-  margin-top: 600px;
+  position: relative;
+  right: 830px;
+  top: 620px;
 }
 
 footer {

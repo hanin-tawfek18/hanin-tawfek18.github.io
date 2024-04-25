@@ -1,39 +1,32 @@
-*{
-    font-family: "ununtu", sans-serif;
-   padding: 0;
-    margin: 0;
-}
-  
-body{
-    display: flex;
-    background-color:white;
-    flex-wrap: wrap;
-    overflow: scroll;
-    font-size: 20px;
-    margin-bottom: 500px;
-    
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
 }
 header{
-    width: 100%;
+    width: 1435px;
     height: 35px;
     background-color:rosybrown;
     padding: 20px;
     margin: 0;
-    padding-right: 50px;
+    padding-right: 55px;
     text-align: center;
     padding-bottom: 20px;
-    background-image: url(../images/login.png);
-    background-repeat: no-repeat;
-    background-position: 10px 15px; 
-    background-size: 50px;
   
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -70px;
+    right: 520px;
 }
 nav {
     list-style-type: none;
     overflow: hidden;
-    font-size: 4px;
+    font-size: 9px;
     margin: 0;
-    padding: 3px;
+    padding: 4px;
     background-color: #dddddd;
 }
 nav a{
@@ -81,7 +74,7 @@ nav a:hover{
 }
 .sidemenu a:hover, .sidemenu  a:focus{
     color: #f1f1f1;
-  }
+}
 .sidemenu .closebtn{
     position: absolute;
     top: 20px;
@@ -96,7 +89,7 @@ nav a:hover{
     font-size: 60px;
     top: 15px;
     right: 35px;
-    }
+  }
 }
 .dark-mode {
     background-color: black;
@@ -104,24 +97,58 @@ nav a:hover{
     
 }
   
+.dark-mode h2{
+    color:white;
+    border-color:cornsilk;
+}  
+h1{
+    color:  #710471;
 
-#applications, #compilers {
-    display: block;
-    background-color: gainsboro; 
-    height: 40px;
-    margin: 30px;
 }
-  
-#applications h2, #compilers h2 {
-    color: #5e0b7a; 
-    
+h2{
+    color:  #710471;
 }
-ul{
-    background-color: #dddddd;
-    margin: 10px;
-}    
+
+h3{
+    color:  #710471;
+} 
+
+h4{
+    color:  #710471;
+}
+
+.language-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 500px;
+}
 .language-image {
-    width: 100px; 
-    height: auto;
-    margin: 10px;
+    width: 400px;
+    margin-right: 10px;
+}
+.language-links {
+    display: flex;
+    flex-direction: column;
+}
+.language-link {
+    margin-bottom: 5px;
+}
+
+.purple-text {
+    color: #710471;
+}
+
+.frame{
+    border: 2px solid #000;
+    padding: 20px;
+    float: right;
+    right: -40px;
+    position: absolute;
+    top: 20px;
+    transform: scale(0.9);
+    height: 2110px;
+    margin-top: 80px;
+    width: 1000px;
+    margin-right: 0;
 }

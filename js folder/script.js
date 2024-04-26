@@ -4,11 +4,12 @@ function openfunction(){
 function closefunction(){
     document.getElementById('menu').style.width = '0%'
 }
-
-function  myFunctionMode() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}  
+function toggleDarkMode(){
+  document.body.classList.toggle('dark-mode');
+}
+function toggleWhiteMode(){
+  document.body.classList.toggle('white-mode');
+}
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>C Programming Language </title>
 <link rel="stylesheet" href="css folder/C.css">
-<script src="js folder/script2.js"></script>
+<script src="js folder/script.js"></script>
 </head>
 <body>
     <header>
@@ -13,6 +13,8 @@
         <div style="font-size:50px; cursor:pointer;position: absolute;  margin-left: 1340px; top: 0;"onclick="openfunction()">
           &#9776;
         </div>
+        <a class="logo" href="Log in.html" target="_blank">
+        <img class="logo" src="images/sign up.jpg" alt="" />
         <div id="menu" class="sidemenu"  >
           <a href="" class="closebtn">&times;</a>
           <div class="all-menu">
@@ -20,25 +22,27 @@
             <a href="#">Categories</a>
             <a href="programmingLink.html">links</a>
             <a href="payment.html">Payment</a>
-            <a href="#">Profile</a>
+            <a href="profile.html">Profile</a>
           </div>
            
            
         </div>
         <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none;position: absolute; top: 15px; left: 90px;">Coursaty</a>
-        <label  class="switch" onclick="myFunctionMode()"> Dark-Mode
-          <input type="range">
-          <span class="slider round"></span>
-        </label>
+        <button style="position: relative; top: -45px; " onclick="toggleDarkMode()">Dark Mode</button>
+        <button style="position: relative; top: -45px;" onclick="toggleWhiteMode()">White Mode</button> 
+        <div class="profilemini">
+          <img class="profilemini" id="profile" src="images/girl.jpg" />
+          <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
+        </div>  
        
     </header>
     <nav>
         <a href="#">php</a>
-        <a href="#">sql</a>
+        <a href="mysql.html">sql</a>
         <a href="#">Kotlin</a>
         <a href="C.html">C</a>
         <a href="c++.html">C++</a>
-        <a href="#">Python</a>
+        <a href="python.html">Python</a>
         <a href="#">java script</a>
     </nav>
     <div class="container">

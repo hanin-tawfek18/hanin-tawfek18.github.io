@@ -4,94 +4,124 @@ body {
     background-color:white;
 }
 header{
-    width: 100%;
-    height: 35px;
-    background-color:rosybrown;
-    padding: 20px;
-    margin: 0;
-    padding-right: 50px;
-    text-align: center;
-    padding-bottom: 20px;
+  width: 100%;
+  height: 35px;
+  background-color:rosybrown;
+  padding: 20px;
+  margin: 0;
+  padding-right: 50px;
+  text-align: center;
+  padding-bottom: 20px;
   
 }
 .logo img{
-    width: 45px;
-    height: 45px;
-    position: relative;
-    top: 0;
-    margin-top: 20px;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: -30px;
+  right: 650px;
+  margin-top: 20px;
 }
 nav {
-    list-style-type: none;
-    overflow: hidden;
-    font-size: 1px;
-    margin: 0;
-    padding: 3px;
-    background-color: #dddddd;
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 1px;
+  margin: 0;
+  padding: 3px;
+  background-color: #dddddd;
 }
 nav a{
-    display: inline;
-    text-align: center;
-    text-decoration: none;
-    font-size: large;
-    padding: 14px 80px;
-    margin: 0;
-    overflow: hidden;
-    background-color: #dddddd;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  padding: 14px 80px;
+  margin: 0;
+  overflow: hidden;
+  background-color: #dddddd;
 }
 nav a:hover{
-    background-color: white;
+  background-color: white;
 }
 #menu{
-    transition: 0.8s;
+  transition: 0.8s;
     
 }
 .sidemenu{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgba(123, 200, 187, 0.708);
-    overflow-x: hidden;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(123, 200, 187, 0.708);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 .all-menu{
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 .sidemenu a{
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: black;
-    display: block;
-    transition: 0.3s;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block;
+  transition: 0.3s;
 }
 .sidemenu a:hover, .sidemenu  a:focus{
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 .sidemenu .closebtn{
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
     
 }
   
 @media screen and (max-height: 450px) {
-    .sidemenu a {font-size: 40px}
-    .sidemenu .closebtn {
-    font-size: 60px;
-    top: 15px;
-    right: 35px;
+  .sidemenu a {font-size: 40px}
+  .sidemenu .closebtn {
+  font-size: 60px;
+  top: 15px;
+  right: 35px;
   }
 }
-  h1{
+.profilemini {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#profile {
+  width: 40px;
+  border-radius: 100%;
+  position: relative;
+  right: 430px;
+  top: 20px;
+}
+#profilename {
+  position: absolute;
+  right: 280px;
+  top: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #dddddd;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+  
+}
+.dark-mode h2{
+  color:white;
+  border-color:cornsilk;
+}
+h1{
     font-size: xx-large; 
     color  : #5E0B7A;
 }

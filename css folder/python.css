@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 35px;
+    background-color:rosybrown;
+    padding: 50px;
+    margin: 0;
+    padding-right: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -60px;
+    right: 620px;
+    margin-top: 20px;
+}
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 1px;
+    margin: 0;
+    padding: 3px;
+    background-color: #dddddd;
+}
+nav a{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    padding: 14px 80px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+nav a:hover{
+    background-color: white;
+}
+#menu{
+    transition: 0.8s;
+      
+}
+.sidemenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(123, 200, 187, 0.708);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.all-menu{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.sidemenu a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+.sidemenu a:hover, .sidemenu  a:focus{
+    color: #f1f1f1;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+      
+}
+    
+@media screen and (max-height: 450px) {
+    .sidemenu a {font-size: 40px}
+    .sidemenu .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+   }
+}
+.profilemini {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#profile {
+    width: 40px;
+    border-radius: 100%;
+    position: relative;
+    right: 430px;
+    top: 20px;
+}
+#profilename {
+    position: absolute;
+    right: 280px;
+    top: 30px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #dddddd;
+  }
+.dark-mode {
+    background-color: black;
+    color: white;
+    
+}
+h1 {
+    color: purple;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+p {
+    color: rgb(91, 5, 93);
+    font-family: Arial;
+    font-size: 150%;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ce7cc4;
+}
+
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #f19cf4;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(197, 16, 169);
+}
+.pros-cons-table {
+    width: 70%;
+    border-collapse: collapse;
+}
+.pros-cons-table th,
+.pros-cons-table td {
+    border: 1px solid #f169e1;
+    padding: 8px;
+}
+
+.pros-cons-table th {
+    background-color: #f96bf6;
+    text-align: left;
+}
+.pros-column {
+    background-color: #facff9;
+}
+.cons-column {
+    background-color: #d5b3e3;
+}
+ 
+.rounded-img {
+    border-radius: 50%; /* This will make the image round */
+    float: left; /* This will align the image to the left */
+    margin: 10px; /* This adds some space around the images */
+    width: 100px; /* Set the width of the images */
+    height: 100px; /* Set the height of the images */
+}
+    /* Clearfix to contain the floated images */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.video {
+    width: 45%; /* Adjust the width as needed */
+}
+ 
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(79, 4, 98, 0.2);
+}
+
+.price .header {
+    background-color: #29032c;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #dd2aa4;
+    border: none;
+    color: rgb(245, 209, 248);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+    width: 100%;
+  }
+}
+ 

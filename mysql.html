@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html lang="en">
+    <title>Online Courses</title>
+    <link rel="stylesheet" href="css folder/mysql.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ubuntu&effect=fire">
+    <script src="js folder/sql.js"> </script>
+    <!-- <script>
+    window.addEventListener('mouseup' , function(event))
+        {
+        var box = document.getElementById('menu');
+        if(event.target!=box)
+        box.style.width='0px';
+    }
+</script> -->
+    </head>
+    <header>
+    
+        <div id="AA" style="font-size:50px; cursor:pointer;position: absolute;  margin-left: 1340px; top: 0;"onclick="openfunction()">
+          &#9776;
+        </div>
+        <a class="logo" href="Log in.html" target="_blank">
+        <img class="logo" src="images/sign up.jpg" alt="" />
+        <div id="menu" class="sidemenu"  >
+          <a href="" class="closebtn">&times;</a>
+          <div class="all-menu">
+            <a href="index.html">Home</a>
+            <a href="#">Categories</a>
+            <a href="programmingLink.html">links</a>
+            <a href="payment.html">Payment</a>
+            <a href="profile.html">Profile</a>
+          </div>
+           
+           
+        </div>
+        <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none;position: absolute; top: 15px; left: 90px;">Coursaty</a>
+        <button style="position: relative; top: -40px; " onclick="toggleDarkMode()">Dark Mode</button>
+        <button style="position: relative; top: -40px;" onclick="toggleWhiteMode()">White Mode</button> 
+        <div class="profilemini">
+            <img class="profilemini" id="profile" src="images/girl.jpg" />
+            <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
+           
+    </header>
+    <nav>
+        <a href="#">php</a>
+        <a href="mysql.html">sql</a>
+        <a href="#">Kotlin</a>
+        <a href="C.html">C</a>
+        <a href="c++.html">C++</a>
+        <a href="python.html">Python</a>
+        <a href="#">java script</a>
+    </nav>
+    <div class="block5">
+              <video controls autoplay muted>
+                <source src="What is SQL_ [in 4 minutes for beginners].mp4" type="video/mp4" />
+                <source src="What is SQL_ [in 4 minutes for beginners].ogg" type="video/ogg" />
+        </video>
+    </div>
+    <div id="block5left">
+        <h4 style="left: 20px; position: relative; top: 20px;"><b>MySQL Advanced course</b></h4>
+        <img style="height: 20px; top:63px; position: relative; left: 10px;" src="images/profile .jpg">
+        <h5 style="left: 40px; position: relative; top: 40px;">By copycat</h5>
+        <img style="height: 20px; top:85px; position: relative; left: 10px;" src="images/duration .jpg">
+        <h5 style="left: 40px; position: relative; top: 60px;">Duration: 1h 17m / 17 lectures</h5>
+        <img style="height: 20px; top:105px; position: relative; left: 10px;" src="images/rate.jpg">
+        <h5 style="left: 40px; position: relative; top: 80px;">Level: Advanced</h5>
+        <img style="height: 20px; top:123px; position: relative; left: 10px;" src="images/A.jpg">
+        <h5 style="left: 40px; position: relative; top: 100px;">Language:English</h5>
+        <a href="registration.html"><button id='button1'>suscribe now</button></a>
+      <i><h6 style="text-align: center; position: relative; top: 140px">99 EGP/month</h6></i> 
+    </div>
+    <p id="aboutlang" style="color: aliceblue;"><b>About this programing language</b></p>
+          <pre  id="aboutlang2"style="color: aliceblue;">        Structured Query Language is a domain-specific language used to manage data,
+        especially in a relational database management system. It is particularly useful
+        in handling structured data, i.e., data incorporating relations among entities and variables.</pre>
+        <hr id="hrabout">
+        <div>
+        <pre id="requirements"><p style=" font-weight: 700;">Course requirements and prerequisites</p><p style="right: 90px; position: relative;">
+            &#xb7; Prior knowledge of database basics is preferred.</p></pre>
+        </div>
+          <section class="sec1"> 
+            <h1 class="sec1"><b><mark>MySQL elements</mark></b></h1>
+            <div class="tbl-header">
+              <table class="sec1">
+                <thead class="sec1">
+                  <tr class="sec1">
+                    <th class="sec1">Element</th>
+                    <th class="sec1">Used for</th>
+                    <th class="sec1">Example</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+            <div class="tbl-content">
+              <table class="sec1">
+                <tbody class="sec1">
+                  <tr class="sec1">
+                    <td class="sec1">SELECT Statement</td>
+                    <td class="sec1">The SELECT statement is used to select data from a database.
+                        <br class="sec1">The data returned is stored in a result table, called the result-set.</td>
+                    <td class="sec1">SELECT column1, column2, ...
+                        <br class="sec1">FROM table_name;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">WHERE Clause</td>
+                    <td class="sec1">The WHERE clause is used to filter records.<br>
+                      It is used to extract only those records that fulfill a specified condition.</td>
+                    <td class="sec1">SELECT * FROM Customers
+                        <br>WHERE Country = 'Mexico';</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">AND, OR and NOT Operators</td>
+                    <td class="sec1">The WHERE clause can be combined with AND, OR, and NOT operators.<br>
+                        The AND and OR operators are used to filter records based on more than one condition:<br>
+                        The AND operator displays a record if all the conditions separated by AND are TRUE.<br>
+                        The OR operator displays a record if any of the conditions separated by OR is TRUE.<br>
+                        The NOT operator displays a record if the condition(s) is NOT TRUE.</td>
+                    <td class="sec1">SELECT * FROM Customers
+                      <br>WHERE Country = 'Germany' AND (City = 'Berlin' OR City = 'Stuttgart');</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">ORDER BY Keyword</td>
+                    <td class="sec1">The ORDER BY keyword is used to sort the result-set in ascending or descending order.<br>
+                        The ORDER BY keyword sorts the records in ascending order by default.<br>
+                          To sort the records in descending order, use the DESC keyword.</td>
+                    <td class="sec1">ELECT * FROM Customers<br> 
+                      ORDER BY Country;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">INSERT INTO Statement</td>
+                    <td class="sec1">The INSERT INTO statement is used to insert new records in a table.</td>
+                    <td class="sec1">INSERT INTO table_name (column1, column2, column3, ...)<br>
+                        VALUES (value1, value2, value3, ...);
+                    <br> or
+                <br>INSERT INTO table_name<br>
+                VALUES (value1, value2, value3, ...);</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">NULL Values</td>
+                    <td class="sec1">A field with a NULL value is a field with no value.<br>
+                        If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.</td>
+                    <td class="sec1">SELECT column_names<br>
+                        FROM table_name<br>
+                        WHERE column_name IS NULL;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">UPDATE Statement</td>
+                    <td class="sec1">The UPDATE statement is used to modify the existing records in a table.</td>
+                    <td class="sec1">UPDATE Customers<br>
+                        SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'<br>
+                        WHERE CustomerID = 1;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">DELETE Statement</td>
+                    <td class="sec1">The DELETE statement is used to delete existing records in a table.</td>
+                    <td class="sec1">DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">LIMIT Clause</td>
+                    <td class="sec1">The LIMIT clause is used to specify the number of records to return.<br>
+                        The LIMIT clause is useful on large tables with thousands of records. Returning a large number of records can impact performance.</td>
+                    <td class="sec1">SELECT * FROM Customers<br>
+                        LIMIT 3;
+                    </td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">MIN() and MAX() Functions</td>
+                    <td class="sec1">The MIN() function returns the smallest value of the selected column.<br>
+                        The MAX() function returns the largest value of the selected column.</td>
+                    <td class="sec1">SELECT MIN(Price) AS SmallestPrice<br>
+                        FROM Products;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">COUNT(), AVG() and SUM() Functions</td>
+                    <td class="sec1">The COUNT() function returns the number of rows that matches a specified criterion.<br>
+                        The AVG() function returns the average value of a numeric column. <br>
+                        The SUM() function returns the total sum of a numeric column. 
+                    </td>
+                    <td class="sec1">SELECT COUNT(column_name)<br>
+                      FROM table_name<br>
+                      WHERE condition;<br><br>
+                      SELECT AVG(column_name)<br>
+                      FROM table_name<br>
+                      WHERE condition;<br><br>
+                      SELECT SUM(column_name)<br>
+                      FROM table_name<br>
+                      WHERE condition;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">LIKE Operator</td>
+                    <td class="sec1">The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.<br>
+                        There are two wildcards often used in conjunction with the LIKE operator:<br>
+                        The percent sign (%) represents zero, one, or multiple characters<br>
+                        The underscore sign (_) represents one, single character<br>
+                        The percent sign and the underscore can also be used in combinations!</td>
+                    <td class="sec1">SELECT * FROM Customers<br>
+                        WHERE CustomerName LIKE 'a%';</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">Wildcard Characters</td>
+                    <td class="sec1">A wildcard character is used to substitute one or more characters in a string.<br>
+                        Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. </td>
+                    <td class="sec1">SELECT * FROM Customers<br>
+                        WHERE City LIKE 'ber%';</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">IN Operator</td>
+                    <td class="sec1">The IN operator allows you to specify multiple values in a WHERE clause.<br>
+                        The IN operator is a shorthand for multiple OR conditions.</td>
+                    <td class="sec1">SELECT * FROM Customers<br>
+                        WHERE Country IN ('Germany', 'France', 'UK');</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">BETWEEN Operator</td>
+                    <td class="sec1">The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.<br>
+                        The BETWEEN operator is inclusive: begin and end values are included.</td>
+                    <td class="sec1">SELECT * FROM Products<br>
+                        WHERE Price BETWEEN 10 AND 20;
+                        </td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">Aliases</td>
+                    <td class="sec1">Aliases are used to give a table, or a column in a table, a temporary name.<br>
+                        Aliases are often used to make column names more readable.<br>
+                        An alias only exists for the duration of that query.<br>
+                        An alias is created with the AS keyword.</td>
+                    <td class="sec1">SELECT CustomerID AS ID, CustomerName AS Customer<br>
+                        FROM Customers;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">Joining Tables</td>
+                    <td class="sec1">A JOIN clause is used to combine rows from two or more tables, based on a related column between them.</td>
+                    <td class="sec1">SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate<br>
+                        FROM Orders<br>
+                        INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">INNER JOIN Keyword</td>
+                    <td class="sec1">The INNER JOIN keyword selects records that have matching values in both tables.</td>
+                    <td class="sec1">SELECT Orders.OrderID, Customers.CustomerName<br>
+                      FROM Orders<br>
+                      INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1"> LEFT JOIN Keyword</td>
+                    <td class="sec1">The LEFT JOIN keyword returns all records from the left table (table1), and the matching records (if any) from the right table (table2).</td>
+                    <td class="sec1">SELECT Customers.CustomerName, Orders.OrderID<br>
+                      FROM Customers<br>
+                      LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID<br>
+                      ORDER BY Customers.CustomerName;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">RIGHT JOIN Keyword</td>
+                    <td class="sec1">The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records (if any) from the left table (table1).</td>
+                    <td class="sec1">SELECT Orders.OrderID, Employees.LastName, Employees.FirstName<br>
+                      FROM Orders<br>
+                      RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID<br>
+                      ORDER BY Orders.OrderID;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">CROSS JOIN Keyword</td>
+                    <td class="sec1">The CROSS JOIN keyword returns all records from both tables (table1 and table2). </td>
+                    <td class="sec1">SELECT Customers.CustomerName, Orders.OrderID<br>
+                      FROM Customers<br>
+                      CROSS JOIN Orders;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">Self Join</td>
+                    <td class="sec1">A self join is a regular join, but the table is joined with itself.</td>
+                    <td class="sec1"><code>A.CustomerName AS CustomerName1, B.CustomerName AS CustomerName2, A.City<br>
+                      FROM Customers A, Customers B<br>
+                      WHERE A.CustomerID <> B.CustomerID<br>
+                      AND A.City = B.City<br>
+                      ORDER BY A.City;</code> 
+                      </td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">UNION Operator</td>
+                    <td class="sec1">The UNION operator is used to combine the result-set of two or more SELECT statements.<br>
+                      Every SELECT statement within UNION must have the same number of columns<br>
+                      The columns must also have similar data types<br>
+                      The columns in every SELECT statement must also be in the same order</td>
+                    <td class="sec1">SELECT City FROM Customers<br>
+                      UNION<br>
+                      SELECT City FROM Suppliers<br>
+                      ORDER BY City;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">GROUP BY Statement</td>
+                    <td class="sec1">The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".<br>
+                      The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.</td>
+                    <td class="sec1">SELECT COUNT(CustomerID), Country<br>
+                      FROM Customers<br>
+                      GROUP BY Country;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">HAVING Clause</td>
+                    <td class="sec1">The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.</td>
+                    <td class="sec1">SELECT COUNT(CustomerID), Country<br>
+                      FROM Customers<br>
+                      GROUP BY Country<br>
+                      HAVING COUNT(CustomerID) > 5;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1"> EXISTS Operator</td>
+                    <td class="sec1">The EXISTS operator is used to test for the existence of any record in a subquery.<br>
+                      The EXISTS operator returns TRUE if the subquery returns one or more records.</td>
+                    <td class="sec1">SELECT SupplierName<br>
+                      FROM Suppliers<br>
+                      WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price < 20);</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">ANY and ALL Operators</td>
+                    <td class="sec1">The ANY and ALL operators allow you to perform a comparison between a single column value and a range of other values.<br>
+                      The ANY operator:<br>
+                      returns a boolean value as a result<br>
+                      returns TRUE if ANY of the subquery values meet the condition<br>
+                      ANY means that the condition will be true if the operation is true for any of the values in the range.<br>
+                      The ALL operator:<br>
+                      returns a boolean value as a result<br>
+                      returns TRUE if ALL of the subquery values meet the condition<br>
+                      is used with SELECT, WHERE and HAVING statements<br>
+                      ALL means that the condition will be true only if the operation is true for all values in the range.</td>
+                    <td class="sec1">SELECT ProductName<br>
+                      FROM Products<br>
+                      WHERE ProductID = ANY<br>
+                        (SELECT ProductID<br>
+                        FROM OrderDetails<br>
+                        WHERE Quantity = 10);<br><br>
+                        SELECT ALL ProductName<br>
+                        FROM Products<br>
+                        WHERE TRUE;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">INSERT INTO SELECT Statement</td>
+                    <td class="sec1">The INSERT INTO SELECT statement copies data from one table and inserts it into another table.<br>
+                      The INSERT INTO SELECT statement requires that the data types in source and target tables matches.</td>
+                    <td class="sec1">INSERT INTO Customers (CustomerName, City, Country)<br>
+                      SELECT SupplierName, City, Country FROM Suppliers;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">CASE Statement</td>
+                    <td class="sec1">The CASE statement goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause.<br>
+                      If there is no ELSE part and no conditions are true, it returns NULL.</td>
+                    <td class="sec1">SELECT CustomerName, City, Country<br>
+                      FROM Customers<br>
+                      ORDER BY<br>
+                      (CASE<br>
+                          WHEN City IS NULL THEN Country<br>
+                          ELSE City<br>
+                      END);</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1">IFNULL() and COALESCE() Functions</td>
+                    <td class="sec1">The MySQL IFNULL() function lets you return an alternative value if an expression is NULL  or we can use the COALESCE() function.</td>
+                    <td class="sec1">SELECT ProductName, UnitPrice * (UnitsInStock + IFNULL(UnitsOnOrder, 0))<br>
+                      FROM Products;<br>
+                      SELECT ProductName, UnitPrice * (UnitsInStock + COALESCE(UnitsOnOrder, 0))<br>
+                      FROM Products;</td>
+                  </tr>
+                  <tr class="sec1">
+                    <td class="sec1"> Comments</td>
+                    <td class="sec1">Single Line Comments<br>
+                      Single line comments start with --.<br>
+                      Any text between -- and the end of the line will be ignored (will not be executed).<br>
+                      Multi-line Comments<br>
+                      Multi-line comments start with /* and end with */.<br>
+                      Any text between /* and */ will be ignored.</td>
+                    <td class="sec1">-- SELECT * FROM Customers;<br>
+                      SELECT * FROM Products;<br><br>
+                      /*Select all the columns<br>
+                      of all the records<br>
+                      in the Customers table:*/<br>
+                      SELECT * FROM Customers;
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section class="sec2">
+            <h1 class="sec2"><b><mark>PROS AND CONS OF MYSQL</mark></b></h1>
+            <div class="tbl-header">
+              <table class="sec2">
+                <thead class="sec2">
+                  <tr class="sec2">
+                    <th class="sec2">PROS</th>
+                    <th class="sec2">CONS</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+            <div class="tbl-content">
+              <table class="sec2">
+                <tbody class="sec2">
+                  <tr class="sec2">
+                    <td class="sec2"><b><mark>Open-source</mark></b> — MySQL is open-source, which means it is free to use and modify. This makes it an attractive option for companies on a tight budget.</td>
+                    <td class="sec2"><b><mark>Learning curve</mark></b> — As with any software, there can be a learning curve when it comes to using MySQL. It may take some time for users to become familiar with its features and tools, especially if they are new to database management.</td>
+                  </tr>
+                  <tr class="sec2">
+                    <td class="sec2"><b><mark>Feature-rich</mark></b> — MySQL offers a wide range of features and tools that make it easy for users to manage and manipulate their data. These include support for SQL (Structured Query Language), a powerful programming language for managing databases, as well as tools for importing and exporting data, setting up security measures, and more.</td>
+                    <td class="sec2"><b><mark>Feature-rich, but not Elon Musk rich </mark></b>— MySQL does not offer as many advanced features as some other RDBMS, such as support for real-time data processing and analytics. This can limit its usefulness for certain types of businesses.</td>
+                  </tr>
+                  <tr class="sec2">
+                    <td class="sec2"><b><mark>Reliable</mark></b> — It is a highly reliable and stable platform, with a proven track record of handling large amounts of data effectively.</td>
+                    <td class="sec2"><b><mark>Not the fastest</mark></b> — MySQL is not as fast as some other database management systems, such as NoSQL databases. This can be an issue for companies that need to process large amounts of data quickly.</td>
+                  </tr>
+                  <tr class="sec2">
+                    <td class="sec2"><b><mark>Flexible </mark></b>— MySQL is flexible and can be easily customized to meet the specific needs of a company. It can be used with a variety of programming languages and operating systems, making it a versatile option for businesses.</td>
+                    <td class="sec2"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          </head>
+          
+      <pre class="uses">     Examples of MySQL usage in real applications by big companies 
+          Some examples of real-world companies that use MySQL include:
+      <ol>
+      <li><u><b>Facebook</b></u>: The social media giant uses MySQL to store a large amount of data, including user profiles and posts.</li> 
+      <li><u><b>Twitter</b></u>: The microblogging platform uses MySQL to store user information, such as tweets and followers.</li> 
+      <li><u><b>Netflix</b></u>: The streaming service uses MySQL to store information about its users and the content they watch.</li> 
+      <li><u><b>Uber</b></u>: The ride-hailing company uses MySQL to store data about its users, drivers, and rides.</li> 
+      <li><u><b>Spotify</b></u>: The music streaming service uses MySQL to store information about its users and their listening habits.</li> 
+      <li><u><b>Dropbox</b></u>: The file-sharing service uses MySQL to store data about its users and their files.</li> 
+      <li><u><b>Airbnb</b></u>: The home-sharing platform uses MySQL to store information about its users and the properties they rent.</li></ol></pre>
+      <hr style="top: 770px; position: relative; rotate: 90deg; color: aliceblue; height: 700px; right: 470px;">
+      <h3 id="lectures"><b>lectures</b></h3>
+      <div id="mySidenav" class="sidenav">
+        <a  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10006;</a>
+        <a target=”_blank” href="https://youtu.be/ofsccc_qx68?si=yd2ZQfBsjPsthyJ7">Lecture 1</a>
+        <a target=”_blank” href="https://youtu.be/Xz95sxOqzgI?si=KNFqH_znAmuCZzZw">Lecture 2</a>
+        <a target=”_blank” href="https://youtu.be/Xz95sxOqzgI?si=R6_MeuQIPNnx4f-P">Lecture 3</a>
+        <a target=”_blank” href="https://youtu.be/uFxUxOIFCTc?si=CUQjotya9WVWDcJZ">Lecture 4</a>
+        <a target=”_blank” href="https://youtu.be/yipoJuLK0tI?si=VqU4taxko9XewpXK">Lecture 5</a>
+        <a target=”_blank” href="https://youtu.be/ViVv6poPAeA?si=_5f5XDuMqmD-cpK5">Lecture 6</a>
+        <a target=”_blank” href="https://youtu.be/K3hVvjC3igE?si=PR2YfkoZo90RJpja">Lecture 7</a>
+        <a target=”_blank” href="https://youtu.be/K3hVvjC3igE?si=j_4228qHc1kdJwiF">Lecture 8</a>
+        <a target=”_blank” href="https://youtu.be/wLSEyWcbR0s?si=mGywtKl4QvUNdjMU">Lecture 9</a>
+        <a target=”_blank” href="https://youtu.be/wLSEyWcbR0s?si=Se0bIgVOj2SpLfc-">Lecture 10</a>
+        <a target=”_blank” href="https://youtu.be/KR5H4rmmllg?si=6Uu8NbAzhnlijdBz">Lecture 11</a>
+        <a target=”_blank” href="https://youtu.be/KR5H4rmmllg?si=PM-D1fg8424-wGGi">Lecture 12</a>
+        <a target=”_blank” href="https://youtu.be/oq9rOGBVI7k?si=YVbVbhbdfbdHlnoJ">Lecture 13</a>
+        <a target=”_blank” href="https://youtu.be/oq9rOGBVI7k?si=phfhYUME4sAmCQjh">Lecture 14</a>
+        <a target=”blank” href="https://youtu.be/_YZS69CRht8?si=ovpSL-aeuiAULbo">Lecture 15</a>
+        <a target=”_blank” href="https://youtu.be/_YZS69CRht8?si=aGLqIFQRysdhNubI">Lecture 16</a>
+        <a target=”_blank” href="https://youtu.be/_YZS69CRht8?si=qC5F3qQCeNtDLVdI">Lecture 17</a>
+      </div>
+
+      <span class="openbtn"style="font-size:30px;cursor:pointer; color: #ddd ;" onclick="openNav()"> <pre>&#10094;</pre> </span>
+      <div class="steve">
+        <pre id="motfont"> 
+          “Everyone should learn how to program because it teaches you how to think”
+
+
+                                                                                                                  – Steve Jobs.</pre>
+      <img id="stevejobs" alt="steve jobs" src="images/boy.jpg">
+    </div >
+</body>
+
+</html>

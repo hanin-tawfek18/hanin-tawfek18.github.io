@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Online Courses</title>
+  <title>Coursaty</title>
   <link rel="stylesheet" href="css folder/my style.css">
-  <link rel="stylesheet" href="css folder/style.css">
   <link rel="stylesheet" href="css folder/normalize.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ubuntu&effect=fire">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -37,7 +36,7 @@
            <a href="Log in.html">login</a>
            <a href="#python">python</a>
          </div>
-    <div style="font-size:50px; cursor:pointer; position: absolute;  margin-left: 840px; top: 0; " onclick="openfunction()">&#9776; </div>
+    <div style="font-size:50px; cursor:pointer; color: brown; position: absolute;  margin-left: 840px; top: 0; " onclick="openfunction()">&#9776; </div>
     </div>
     <a class="logo" href="Log in.html" target="_blank">
     <img class="logo" src="images/sign up.jpg" alt="" />
@@ -45,30 +44,29 @@
       <a href="" class="closebtn">&times;</a>
       <div class="all-menu">
         <a href="index.html">Home</a>
-       <a href="#">Categories</a>
+       <a href="FAQ.html">FAQ</a>
        <a href="programmingLink.html">links</a>
        <a href="payment.html">Payment</a>
        <a href="profile.html">Profile</a>
-       <a href="Log in.html">log in</a>
+       <a href="feedback.html">FeedBack</a>
        
       </div>
       
     </div>
     
     <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none; position: absolute; top: 15px; left: 150px;">Coursaty</a>
-    <button style="position: relative; top: -10px; " onclick="toggleDarkMode()">Dark Mode</button>
     <button style="position: relative; top: -10px;" onclick="toggleWhiteMode()">White Mode</button> 
     <div class="profilemini">
       <img class="profilemini" id="profile" src="images/girl.jpg" />
       <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
     </div>  
-    <button style="position: relative; top: 650px; left: -700px; font-size: 30px;"><a href="#">Get Your Certificate</a></button>       
+    <button style="position: relative; top: 650px; left: -700px; font-size: 30px; border-color: blueviolet;"><a href="certificate.html">Get Your Certificate</a></button>       
   </header>
  
   <nav>
     <a href="#">php</a>
     <a href="mysql.html">sql</a>
-    <a href="#">Kotlin</a>
+    <a href="kotlin.html">Kotlin</a>
     <a href="C.html">C</a>
     <a href="c++.html">C++</a>
     <a href="python.html">Python</a>
@@ -117,7 +115,7 @@
   <section id="AR">
     <div class="reg">
       <h3 id="rg">Education  Is About Creating Leaders For Tomorrow</h3>
-      <a id="ge" href="registration.html" style="font-size: 29px;"><button style="background:rgba(130, 195, 236, 0.955); color:black;">register today</button></a>
+      <a id="ge" href="registration.html" style="font-size: 29px;"><button style="background:rgba(130, 195, 236, 0.955); color:black; border-color: cornflowerblue;">register today</button></a>
     </div>
   </section>
   <h1 id="SS">Recommend Videos:-</h1>
@@ -146,6 +144,7 @@
             <div class="day">10 days ago</div>
           </div>
         </div>
+        <i onclick="myFunction2(this)" class="fa fa-thumbs-up"></i>
         <div class="comment-post">It is the best websiite help me to understand programming language</div>
       </div>
       <div class="list">
@@ -157,6 +156,7 @@
           </div>
         </div>
         <div class="comment-post">I am very happy to follow this website and learn from it</div>
+        <i onclick="myFunction2(this)" class="fa fa-thumbs-up"></i>
       </div>
     </div>
     <div class="comment-box">

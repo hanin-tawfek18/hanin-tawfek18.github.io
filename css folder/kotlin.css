@@ -1,0 +1,180 @@
+header{
+    width: 100%;
+    height: 35px;
+    background-color:rosybrown;
+    padding: 20px;
+    margin: 0;
+    padding-right: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -30px;
+    right: 650px;
+    margin-top: 20px;
+}
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 1px;
+    margin: 0;
+    padding: 3px;
+    background-color: #dddddd;
+}
+nav a{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    padding: 14px 80px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+nav a:hover{
+    background-color: white;
+}
+#menu{
+    transition: 0.8s;
+      
+}
+.sidemenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(123, 200, 187, 0.708);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.all-menu{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.sidemenu a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+.sidemenu a:hover, .sidemenu  a:focus{
+    color: #f1f1f1;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+      
+}
+    
+@media screen and (max-height: 450px) {
+    .sidemenu a {font-size: 40px}
+    .sidemenu .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+ }
+}
+.profilemini {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#profile {
+    width: 40px;
+    border-radius: 100%;
+    position: relative;
+    right: 320px;
+    top: 20px;
+}
+#profilename {
+    position: absolute;
+    right: 280px;
+    top: 30px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #dddddd;
+}
+.white-mode {
+    background-color: rgb(69, 34, 34);
+    color: white;    
+}
+
+.Headers {
+    font-family: 'sans-serif', Monospace;
+    color: purple;
+}
+ 
+.text-center {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'sans-serif', Monospace;
+    color: purple;
+}
+   
+.intro {
+    width: 100%;
+    height: 600px;
+}
+   
+img {
+    width: 40%;
+    max-width: 250px;
+    margin-right: 100px;
+}
+ 
+.red{
+    color:red;
+    font-size: 20px;
+}
+ 
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+p {
+    font-size: 18px;
+}
+li {
+    font-size: 18px;
+}
+ 
+html {
+    letter-spacing: 0.5px;
+}
+   
+th {
+    width:40%;
+    background-color: #f2f2f2;
+}
+   
+ 
+td {
+    padding: 8px;
+    border: 1px solid #ddd; 
+}
+ 
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+.des {
+    text-align: center;
+    font-weight:bold;
+    font-size:23px;
+    color:purple;
+}

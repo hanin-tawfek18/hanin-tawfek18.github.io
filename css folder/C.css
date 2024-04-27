@@ -1,7 +1,7 @@
 body {
-    font-family: 'Arial', sans-serif;
-    color: black;
-    background-color:white;
+  font-family: 'Arial', sans-serif;
+  color: black;
+  background-color:white;
 }
 header{
   width: 100%;
@@ -117,17 +117,14 @@ nav a:hover{
   color: white;
   
 }
-.dark-mode h2{
-  color:white;
-  border-color:cornsilk;
-}
+
 h1{
-    font-size: xx-large; 
-    color  : #5E0B7A;
+  font-size: xx-large; 
+  color  : #5E0B7A;
 }
 h2{
   font-size: xx-large;
-    color: #5E0B7A;
+  color: #5E0B7A;
 }
 h3{
   font-size: xx-large;
@@ -167,40 +164,91 @@ h11{
 }
   
 .container {
-    width: 80%;
-    margin: auto;
-    color: black; 
+  width: 80%;
+  margin: auto;
+  color: black; 
 }
 table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
 }
 th, td {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
 }
 th{
-    background-color: #5E0B7A;
-    color: white;
+  background-color: #5E0B7A;
+  color: white;
 }
 tr:nth-child(even){
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 .image-container, .comparison, .videos {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 .label{
-    text-align: left;
-    margin-top: 40px;
-
+  text-align: left;
+  margin-top: 40px;
 }
 .yyy{
-    text-align: left;
+  text-align: left;
+}
+h1{
+  color:  #710471;
+
+}
+h2{
+  color:  #710471;
+}
+
+h3{
+  color:  #710471;
+} 
+
+h4{
+  color:  #710471;
+}
+
+.language-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.language-image {
+  width: 400px;
+  margin-right: 10px;
+  height: 260px;
+}
+.language-links {
+  display: flex;
+  flex-direction: column;
+}
+.language-link {
+  margin-bottom: 5px;
+}
+
+.purple-text {
+  color: #710471;
+}
+
+.frame{
+  border: 2px solid #000;
+  padding: 20px;
+  float: right;
+  right: -40px;
+  position: absolute;
+  top: 20px;
+  transform: scale(0.9);
+  height: 2110px;
+  margin-top: 80px;
+  width: 1000px;
+  margin-right: 0;
 }

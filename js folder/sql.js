@@ -13,6 +13,3 @@ function closefunction(){
 function toggleDarkMode(){
     document.body.classList.toggle('dark-mode');
 }
-function toggleWhiteMode(){
-    document.body.classList.toggle('white-mode');
-}

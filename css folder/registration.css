@@ -41,13 +41,14 @@ body{
 .all-form .input-box1 , .all-form1 .input-field{
     position: relative;
     width: 100%;
-    margin: 30px 0;
 }
 .all-form .input-box1{
     height: 50px;
+    margin: 30px 0 45px;
 }
-.all-form .input-field{
+.all-form1 .input-field{
     height: 40px;
+    margin: 30px 0;
 }
 .input-box1 input , .input-box .input-field input{
     width: 100%;
@@ -78,11 +79,6 @@ body{
     transform: translateY(-50%);
     font-size: 20px;
 }
-/*.all-form .register-link{
-    font-size: 15px;
-    text-align: center;
-    margin-top: 20px;
-}*/
 .all-form .remember-forgot{
     display: flex;
     justify-content: space-between;
@@ -132,4 +128,24 @@ body{
     font-size: 18px;
     text-align: center;
     margin: 30px 0 15px;
+}
+
+.login_form #name_error ,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #f00202;
+    margin-left: 15px;
+    text-align: center;
+    /*padding: 1px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A; */
+    display: none;
+}
+.input-field .error{
+    color: #ff3860;
+    font-size: 18px;
+    text-align: center;
+    height: 13px;
 }

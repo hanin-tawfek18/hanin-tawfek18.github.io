@@ -4,13 +4,6 @@ function openfunction(){
 function closefunction(){
     document.getElementById('menu').style.width = '0%'
 }
-function toggleDarkMode(){
-  document.body.classList.toggle('dark-mode');
-}
-function toggleWhiteMode(){
-  document.body.classList.toggle('white-mode');
-}
-
 var i = 0;
 function move() {
   if (i == 0) {
@@ -30,3 +23,14 @@ function move() {
     }
   }
 }
+document.getElementById("checkoutForm").addEventListener("submit", function(event) {
+  var emailInput = document.getElementById("emailInput");
+  var email = emailInput.value;
+  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
+  if (!emailPattern.test(email)) {
+      // Email is not valid, show the alert
+      document.getElementById("emailAlert").style.display = "block";
+      event.preventDefault(); // Prevent form submission
+  }
+});

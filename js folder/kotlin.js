@@ -25,7 +25,7 @@ function openfunction(){
 function closefunction(){
     document.getElementById('menu').style.width = '0%'
 }
-
-function toggleWhiteMode(){
-  document.body.classList.toggle('white-mode');
+var icon =document.getElementById("icon");
+icon.onclick=function(){
+document.body.classList.toggle("dark-theme");
 }

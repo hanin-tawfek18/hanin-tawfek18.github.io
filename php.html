@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css folder/php.css" />
+    <!-- Main Template CSS File -->
+   
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css folder/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css folder/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="js folder/hanin.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+     <!-- Start Header -->
+     <div class="topnav">
+   
+      <div style="font-size:50px;padding-left: 1400px;  cursor:pointer; color:white;" onclick="openfunction()" >&#9776; </div>
+      <div id="menu" class="sidemenu"  >
+        <a href="" class="closebtn">&times;</a>
+        <div class="all-menu">
+         <a href="index.html">Home</a>
+         <a href="FAQ.html">FAQ</a>
+         <a href="Applications.html">Applications</a>
+         <a href="payment.html">Payment</a>
+         <a href="profile.html">Profile</a>
+         <a href="feedback.html">FeedBack</a>
+        </div>
+      </div>  
+     
+      
+      <a href="index.html" style="color:rgb(196, 67, 239); font-size: 40px; text-decoration: none; position: absolute; top: 15px; left: 150px;">Coursaty</a>
+      <div class="profilemini">
+        <img class="profilemini" id="profile" src="images/girl.jpg">
+        <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
+      </div> 
+     <nav>
+      <a href="php.html">php</a>
+      <a href="mysql.html">sql</a>
+      <a href="kotlin.html">Kotlin</a>
+      <a href="C.html">C</a>
+      <a href="c++.html">C++</a>
+      <a href="python.html">Python</a>
+      <a href="JS.html">java script</a>
+     </nav>
+   
+      
+      <!-- End Header -->
+<!--title-->
+<div class="title">
+    <h2>PHP Course </h2>
+    <i class="fa-regular fa-sun" id="icon"></i>
+</div>
+     <!-- Start Landing -->
+     <div class="landing">
+     
+        <div class="container">
+          <div class="text">
+            <h1>Learn PHP</h1>
+            <p>Learn the fundamentals of PHP, one of the most popular
+              languages of modern web development.</p>
+            <button class="buy-button" onclick="purchaseCourse()">Purchase Course</button>
+          </div>
+          
+          <video autoplay loop muted>
+            <source src="media/php.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio id="alert-sound">
+          <source src="media/bits.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      </div>
+      <!-- End Landing -->
+      <!--Start instructors-->
+      <div class="instructors">
+      <h2> Meet our instructors</h2>
+      
+      <div class="instructors-img">
+          <img src="images/avatar-04.png" alt="Instructor 1">
+          <div class="qualifications-box">
+            <h3>John Smith</h3>
+          <span class="jop">Senior PHP Developer</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+          </div>
+          <p>
+            Simplifying complex PHP concepts with practical examples, 
+            John's engaging teaching style makes him a sought-after instructor.
+          </p>
+          </div>
+      </div>
+      <div class="instructors-img">
+          <img src="images/avatar-03.png" alt="Instructor 2">
+          <div class="qualifications-box">
+            <h3>Mohamed Farag</h3>
+          <span class="jop">Full Stack Developer</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Mohamed's expertise in PHP frameworks and backend scripting 
+            equips students with industry-relevant knowledge and best practices.
+          </p>
+          </div>
+      </div>
+          <div class="instructors-img">
+          <img src="images/avatar-05.png" alt="Instructor 3">
+          <div class="qualifications-box">
+            <h3>Michael Chen</h3>
+          <span class="jop">PHP Architect</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Michael's creativity and innovation in PHP development, combined with real-world e-commerce experience,
+             offer students practical insights into PHP application development.
+          </p>
+          </div>
+        </div>
+          <div class="instructors-img">
+          <img src="images/avatar-01.png" alt="Instructor 4">
+          <div class="qualifications-box">
+            <h3>David Brown</h3>
+          <span class="jop">Software Engineer & PHP Instructor</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            David's passion for PHP programming shines through in his interactive teaching methods,
+             providing students with essential skills for web development.
+          </p>
+          </div>
+          </div>
+          <div class="instructors-img">
+          <img src="images/avatar-06.png" alt="Instructor 4">
+          <div class="qualifications-box">
+            <h3>Kevin Johnson</h3>
+          <span class="jop">PHP Specialist & Educator</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Kevin's enthusiasm for PHP programming motivates students to explore the language deeply,
+             empowering them to build dynamic web applications confidently.
+          </p>
+          </div>
+</div>
+        
+        
+      </div>
+      <!--iframe-->
+      
+      
+      
+      <div class="video-container">
+        <h1>What is PHP?!</h1>
+          <iframe src="https://www.youtube.com/embed/mBL9Athx7ms?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+<!--why we learn-->
+<section>
+  
+  <div class="faq">
+    <div class="question">
+      <h3> Why We Learn? </h3>
+      <svg width="15" height="10" viewBox="0 0 42 25">
+        <path 
+        d="M3 3L21 21L39 3" 
+        stroke="white" 
+        stroke-width="7" 
+        stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="answer">
+      <ul>
+     <li> Explore the basic structure of a web application, and how a web browser interacts with a web server.</li>
+
+     <li>Learn basic syntax and data structures of PHP, variables, logic, iteration, arrays, error handling, and superglobal variables, among other elements.</li>
+      
+      
+     <li> Gain the skills and knowledge to install and use an integrated PHP/MySQL environment like XAMPP or MAMP.</li>
+       </ul> 
+  </div>
+  
+  </div>
+  
+</section>
+<!--course container -->
+<div class="course-container">
+  <div class="text">
+  <p>About this skill path
+    PHP is a widely used server-side scripting language that has become increasingly fast and powerful through the years.
+     You can also use it on the front-end since PHP can be embedded right into HTML. These features make learning PHP a great option for any web developer.
+      In this skill path, you’ll work through PHP fundamental programming concepts and gain the skills necessary to develop programs in PHP.</p>
+    </div>
+    <img src="images/pexels-realtoughcandy-11035390.jpg" alt="" />
+    
+</div>
+<!--table of content -->
+
+<script src="js folder/sarahjs.js"></script>
+<div class="container-table">
+<h2>PHP Concepts Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Week</th>
+                <th>Concept</th>
+                <th>YouTube Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"><b> Week 1</b></td>
+                <td>Introduction to the Learn PHP Skill Path</td>
+                <td><a href="https://youtu.be/XBj_le81sAc?si=TSaDenYPQ8vk4Q0R" target="_blank">Lecture 1</a></td>
+            </tr>
+            <tr>
+                <td>PHP Variables, Strings, and Numbers</td>
+                <td><a href="https://youtu.be/DiEfNQsapbc?si=D7gIDsUitfsPCYP-" target="_blank">Lecture2</a></td>
+            </tr>
+            
+            <tr>
+                <td ><b>Week 2</b></td>
+                <td>PHP Functions</td>
+                <td><a href="https://youtu.be/RIPJEgOrVRc?si=NV7VLq5tKCJweQpk" target="_blank">Lecture3</a></td>
+            </tr>
+            <tr>
+              <td><b>Week 3</b></td>
+                <td>Arrays</td>
+                <td><a href="https://youtu.be/D7mqV-p1kEc?si=YZqoaASDv2UiX3iA" target="_blank">Lecture4</a></td>
+            </tr>
+            <tr>
+              <td > <b>Week 4</b></td>
+              
+              <td rowspan="2">PHP Conditionals and Logic</td>
+              <td rowspan="2"><a href="https://youtu.be/VcQpzTPHbys?si=CzlsdPsSNX2IL4Dl" target="_blank">Lecture5</a></td>
+          </tr>
+          <tr>
+          <td ><b>Week 5</b></td>
+        </tr>
+        <tr>
+          <td > <b>Week 6</b></td>
+          
+          <td rowspan="2">PHP Arrays and Loops</td>
+          <td rowspan="2"><a href="https://youtu.be/9gfrJfY5IFw?si=07iWYwJK0lFFnNnn" target="_blank">Lecture6</a></td>
+      </tr>
+      <tr>
+      <td ><b>Week 7</b></td>
+    </tr>
+    <tr>
+      <td ><b>Week 8</b></td>
+      <td>PHP and HTML</td>
+      <td><a href="https://youtu.be/mGmuVNkLi74?si=ZfF7jfiV-SqrLIBx" target="_blank">Lecture7</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><b>Week 9</b></td>
+    <td>PHP Classes and Objects</td>
+    <td><a href="https://youtu.be/iEGUOE9RKqM?si=OTH4HoHG0eCHS1oK" target="_blank">Lecture8</a></td>
+</tr>
+<tr>
+    <td>Learn PHP Next Steps</td>
+    <td><a href="https://youtu.be/r9ndOH0tyfA?si=2LAfxMBfSVKUrcIy" target="_blank">Lecture9</a></td>
+</tr>
+        </tbody>
+    </table>
+  </div>
+   <!-- Start Footer -->
+   <div class="footer">
+    <div class="container">
+      <div class="box">
+        <h3>Coursaty</h3>
+        <ul class="social">
+          <li>
+            <a href="https://www.facebook.com/" class="facebook" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/home?lang=en" class="twitter" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" class="youtube" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+        <div id="news" class="subscribe">
+          <p>subscribe to see our latest courses</p>
+          <div id="email-bar">
+              <input type="email" id="email" placeholder="enter your email...">
+              <button id="subscribeButton">subscribe</button>
+          </div>
+      </div>
+      </div>
+     
+      <div class="box">
+        <div class="line">
+          <i class="fas fa-map-marker-alt fa-fw"></i>
+          <div class="info">Helwan University, Helwan, Cairo Governorate</div>
+        </div>
+        <div class="line">
+          <i class="far fa-clock fa-fw"></i>
+          <div class="info">Business Hours: From 10:00 To 18:00</div>
+        </div>
+        <div class="line">
+          <i class="fas fa-phone-volume fa-fw"></i>
+          <div class="info">
+            <span>+02 25569061</span>
+            
+          </div>
+        </div>
+      </div>
+      <div class="about-box">
+        <h3>About Us</h3>
+        <p class="about-text">
+            Coursaty is a platform dedicated to providing high-quality educational content and resources for
+            students and professionals. Our mission is to empower individuals through knowledge and learning.
+        </p>
+    </div>
+    </div>
+    <p class="copyright">Made With Coursaty team</p>
+  </div>
+  <!-- End Footer -->
+  </body>
+</html>

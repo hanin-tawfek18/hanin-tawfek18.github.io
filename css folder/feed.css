@@ -73,7 +73,7 @@ body {
 	grid-gap: .5rem;
 	font-size: 2rem;
 	color: var(--yellow);
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 .rating .star {
 	cursor: pointer;
@@ -101,6 +101,12 @@ body {
 
 .rating .star:hover {
 	transform: scale(1.1);
+}
+.rating-text{
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+    color: #F5F5F5;
 }
 form .id{
     position: relative;

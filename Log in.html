@@ -4,19 +4,21 @@
         <title>Login</title>
         <link rel="stylesheet" href="css folder/registration.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="js folder/login.js" defer></script>
     </head>
     <body>
         <div class="all-form">
-            <form action="">
+            <form class="login_form" action="" method="post" name="form" onsubmit="return validated()">
                 <h1>Login</h1>
                 <div class="input-box1">
-                    <!-- <label>Username</label> -->
-                    <input type="text" required placeholder="Username">
+                    <input autocomplete="off" id="namee" type="text"  placeholder="Username" name="namee">
+                    <div id="name_error">please fill up your Username</div>
                     <i class="bx bxs-user"></i>
                 </div>
                 <div class="input-box1">
                     <!-- <label>Password</label> -->
-                    <input type="password" required placeholder="Password" minlength="5" maxlength="30">
+                    <input id="password" type="password" placeholder="Password" name="password">
+                    <div id="pass_error">please fill up your Password</div>
                     <i class="bx bxs-lock-alt"></i>
                 </div>
                 <div class="remember-forgot">

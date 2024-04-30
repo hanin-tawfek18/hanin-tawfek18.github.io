@@ -19,13 +19,30 @@ document.addEventListener("DOMContentLoaded", function () {
     
         paragraph.parentNode.insertBefore(button, paragraph.nextSibling);
   });
-function openfunction(){
-    document.getElementById('menu').style.width ='100%';
-}
-function closefunction(){
-    document.getElementById('menu').style.width = '0%'
-}
-var icon =document.getElementById("icon");
-icon.onclick=function(){
-document.body.classList.toggle("dark-theme");
-}
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.hyper ol a');
+
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        const href = this.getAttribute('href');
+        
+        // Check if href starts with '#'
+        if (href && href.startsWith('#')) {
+          const targetId = href.substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            const yOffset = -70; // Adjust this value based on your header height
+            const y = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  });

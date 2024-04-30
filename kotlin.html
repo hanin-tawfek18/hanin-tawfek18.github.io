@@ -1,162 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KOTLIN</title>
-  
+  <title>Test</title>
+
   <style>
-    table, th, td {
+    table,
+    th,
+    td {
       border: 2px solid black;
       border-collapse: collapse;
       padding: 5px;
     }
   </style>
 
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="css folder/kotlin.css">
-  <script src="js folder/kotlin.js"></script>
+  <script src="js folder/kotlin.js" defer></script>
+  <script src="js folder/hanin.js"></script>
+  <script src="https://kit.fontawesome.com/5201b9b4d1.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  <header>
-    
-    <div style="font-size:50px; cursor:pointer;color: brown; position: absolute;  margin-left: 1340px; top: 0;"onclick="openfunction()">
-      &#9776;
-    </div>
-    <a class="logo" href="Log in.html" target="_blank">
-    <img class="logo" src="images/sign up.jpg" alt="" />
+  <div class="topnav">
+   
+    <div style="font-size:50px;padding-left: 1200px;  cursor:pointer; color:white;" onclick="openfunction()" >&#9776; </div>
     <div id="menu" class="sidemenu"  >
       <a href="" class="closebtn">&times;</a>
       <div class="all-menu">
-        <a href="index.html">Home</a>
-        <a href="FAQ.html">FAQ</a>
-        <a href="programmingLink.html">links</a>
-        <a href="payment.html">Payment</a>
-        <a href="profile.html">Profile</a>
-        <a href="feedback.html">FeedBack</a>
+       <a href="index.html">Home</a>
+       <a href="FAQ.html">FAQ</a>
+       <a href="Applications.html">Applications</a>
+       <a href="payment.html">Payment</a>
+       <a href="profile.html">Profile</a>
+       <a href="feedback.html">FeedBack</a>
+       <a href="certificate.html">Certificate</a>
       </div>
-       
-       
-    </div>
-    <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none;position: absolute; top: 15px; left: 90px;">Coursaty</a>
-    <button style="position: relative; top: -35px;" onclick="toggleWhiteMode()">White Mode</button> 
-    <div class="profilemini">
-      <img class="profilemini" id="profile" src="images/girl.jpg" />
-      <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
     </div>  
    
-  </header>
-  <nav>
-    <a href="#">php</a>
+    
+    <a href="index.html" style="color:rgb(196, 67, 239); font-size: 40px; text-decoration: none; position: absolute; top: 15px; left: 150px;">Coursaty</a>
+    <div class="profilemini">
+      <img class="profilemini" id="profile" src="images/girl.jpg">
+      <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
+    </div> 
+    
+   <nav>
+    <a href="php.html">php</a>
     <a href="mysql.html">sql</a>
     <a href="kotlin.html">Kotlin</a>
     <a href="C.html">C</a>
     <a href="c++.html">C++</a>
     <a href="python.html">Python</a>
-    <a href="#">java script</a>
-  </nav>
-  <h1 class="text-center">* Welcome to your KOTLIN course *</h1>
+    <a href="JS.html">java script</a>
+   </nav>
 
-  <iframe class="intro" src="https://www.youtube.com/embed/watch?v=VEqhzCFmEQI&list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="text-center">
+    <h1 class="text-center"> Welcome to your KOTLIN course</h1>
+  </div>
 
-  <p id="paragraph-id">
+  <div class="first">
+    <img class="koim" src="images/kotlin.jpg" alt="Kotlin">
 
-  </p>
-
-  <hr>
-
-  <h2 class="Headers">What is Kotlin?</h2>
-  <p>Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java id Library, but type inference allows its syntax to be more concise.</p>
+    <nav class="hyper">
+      <ol>
+        <h2 class="hyperh">Ready to start your journey? Let me help you!</h2>
+        <li><a href="#what">What is Kotlin</a></li>
+        <li><a href="#why">Why Kotlin</a></li>
+        <li><a href="#sample">Sample projects</a></li>
+        <li><a href="#det">Course details</a></li>
+        <li><a href="#dess">Course schedule</a></li>
+        <li><a href="#iframe">Course introduction</a></li>
+        <li><a href="#paragraph-id">Enroll now</a></li>
+      </ol>
+    </nav>
+  </div>
   <br>
-  <h2 class="Headers">Why to learn Kotlin?</h2>
-  <p><ul>
-    <li>Easy to learn</li>
-    <li>Interoperable with Java</li>
-    <li>Extensions</li>
-    <li>No more Null Pointer Exceptions</li>
-    <li>Reliable and safe</li>
-    <li>Strong support</li>
-</ul></p><br>
+  <br><br><br>
 
-<h2 class="Headers">Skills you will gain after the course:</h2>
-  <p><ul>
-    <li>Kotlin Playground</li>
-    <li>practice using and extending protocols.</li>
-    <li>declare and initialize different types of variables</li>
-    <li>create arrays</li>
-    <li>create control flow patterns using conditionals and loops</li>
-    <li>Principles of software development</li>
-    <li>Kotlin coroutines</li>
-  </ul></p><br>
-
-  <table>
-    <caption class="des">Course Schedule</caption>
-    <thead>
-      <tr>
-        <th>Week</th>
-        <th>Content</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Week One</td>
-        <td>Introduction + setup + writing the first code</td>
-      </tr>
-      <tr>
-        <td>Week Two</td>
-        <td>Comments + Basic syntax + Functions </td>
-      </tr>
-      <tr>
-        <td>Week Three</td>
-        <td>Loops + Variables </td>
-      </tr>
-      <tr>
-        <td>Week Four</td>
-        <td>Continue and Break + Named parameters</td>
-      </tr>
-      <td>Week Five</td>
-        <td>Recursion + Inheritance</td>
-      </tr>
-      <td>Week Six</td>
-        <td>Modifires + Abstract + ides</td>
-      </tr>
-      <td>Week Seven</td>
-        <td>Higher Order functions + Collections</td>
-      </tr>
-      <td>Week Eight</td>
-        <td>Hash + Null + scope functions</td>
-      </tr>
-
-    </tbody>
-  </table>
-<br>
-
-  <h2 class="Headers">Sample Projects:</h2>
-  <ul>
-    <li class="bold">Android BiometricLogin Sample</li>
-    <p>This is the canonical sample that demonstrates how to integrate Android Biometrics into your apps. Whether your project is for government, healthcare, financial, enterprise, or general usage, this sample should guide your implementation.</p>
-    <img src="images/ex1.jpg" alt="img1"><img src="images/ex2.jpg" alt="img-1">
-    <h4 class="Headers">You can check the whole project from <a href="https://github.com/android/security-samples/tree/main/BiometricLoginKotlin">here</a></h4>
-<br>
-
-    <li class="bold">Android EmojiCompat Sample</li>
-    <p>This sample demonstrates usage of EmojiCompat support library. You can use this library to prevent your app from showing missing emoji characters in the form of tofu (□). You can use either bundled or downloadable emoji fonts. This sample shows both usages.</p>
-    <img src="images/emoji.jpg" alt="img2">
-    <h4 class="Headers">You can check the whole project from <a href="https://github.com/android/user-interface-samples/tree/main/EmojiCompat#android-emojicompat-sample-kotlin">here</a></h4>
-<br>
-
-    <li class="bold">Android PictureInPicture Sample</li>
-    <p>This sample demonstrates basic usage of Picture-in-Picture mode for handheld devices. The sample plays a video. The video keeps on playing when the app is turned in to Picture-in-Picture mode. On Picture-in-Picture screen, the app shows an action item to pause or resume the video.</p>
-    <img src="images/picture.jpg" alt="img3">
-    <img src="images/calcolater.jpg" alt="img-3">
-    <h4 class="Headers">You can check the whole project from <a href="https://github.com/android/media-samples/tree/main/PictureInPictureKotlin">here</a></h4>
-</ul>
+  <div class="glass">
+    <h2 id="what" class="Headers"><p></p>What is Kotlin?</h2>
+    <p>Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java id Library, but type inference allows its syntax to be more concise.</p>
     <br>
+
+    <div class="video1">
+
+      <video class="video" controls width="640" height="360">
+        <source src="media/kotlin.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <h2 id="why" class="Headers">Why to learn Kotlin?</h2>
+
+    <div class="whyd">
+
+      <p>
+        <ul>
+          <li>Easy to learn</li>
+          <li>Interoperable with Java</li>
+          <li>Extensions</li>
+          <li>No more Null Pointer Exceptions</li>
+          <li>Reliable and safe</li>
+          <li>Strong support</li>
+        </ul>
+      </p><br>
+      <img class="imgw" src="https://www.zestminds.com/blog/wp-content/uploads/2022/06/top-10-mobile-apps-in-kotlin.png" alt="why">
+
+    </div>
+    <br>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="samples">
+    <h2 class="Headers" id="sample">Sample Projects "Waiting for yours" <i class="fa-regular fa-face-grin-wink"></i></h2>
+    <ul>
+      <li class="bold">Android BiometricLogin Sample</li>
+      <p>This is the canonical sample that demonstrates how to integrate Android Biometrics into your apps. Whether your project is for government, healthcare, financial, enterprise, or general usage, this sample should guide your implementation.</p>
+      <img src="images/ex1.jpg" alt="img1" width="250" height="400">
+      <img src="images/ex2.jpg" alt="img-1" width="250" height="400">
+      <h4 class="Headers" style="font-size:21px">You can check the whole project from <a href="https://github.com/android/security-samples/tree/main/BiometricLoginKotlin">here</a></h4>
+      <br>
+
+      <li class="bold">Android EmojiCompat Sample</li>
+      <p>This sample demonstrates usage of EmojiCompat support library. You can use this library to prevent your app from showing missing emoji characters in the form of tofu (□). You can use either bundled or downloadable emoji fonts. This sample shows both usages.</p>
+      <img src="images/emoji.jpg" alt="img2" width="250" height="400">
+      <h4 class="Headers" style="font-size:21px">You can check the whole project from <a href="https://github.com/android/user-interface-samples/tree/main/EmojiCompat#android-emojicompat-sample-kotlin">here</a></h4>
+      <br>
+
+      <li class="bold">Android PictureInPicture Sample</li>
+      <p>This sample demonstrates basic usage of Picture-in-Picture mode for handheld devices. The sample plays a video. The video keeps on playing when the app is turned into Picture-in-Picture mode. On Picture-in-Picture screen, the app shows an action item to pause or resume the video.</p>
+      <img src="images/picture.jpg" alt="img3" width="250" height="400">
+      <img src="images/calcolater.jpg" alt="img-3" width="250" height="400">
+      <h4 class="Headers" style="font-size:21px">You can check the whole project from <a href="https://github.com/android/media-samples/tree/main/PictureInPictureKotlin">here</a></h4>
+    </ul>
     <h4 class="red">You can check more and more projects done by KOTLIN from <a href="https://developer.android.com/kotlin/samples">here</a></h4>
+  </div>
+
+  <h2 class="deta">Course details</h2>
+
+  <div class="det">
+    <p><i class="fa-solid fa-hourglass fa-beat-fade"></i> 8 weeks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-chart-simple" style="color: #000000;"></i> Intermediate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-star fa-flip" style="color: #fbff29;"></i> 4.9 stars &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-regular fa-clock fa-shake" style="color: #74C0FC;"></i> 4 Hours / week &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-trophy"></i> Certificate on completion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-user" style="color:#150d52;"></i> Self-paced &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-dollar-sign fa-beat" style="color: #63E6BE;"></i> Free
+    </p>
+  </div>
+  <br><br><br><br>
   
-
-
-
-
-</body>
-</html>
+  <div class="tabled">
+    <table>
+      <caption id="dess" class="des">Course Schedule</caption>
+  
+      <thead>
+        <tr>
+          <th>Module</th>
+          <th>Number of Weeks</th>
+          <th>Covered Concepts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2" style="font-weight: bold; font-size: 20px;">Module (1)</td>
+          <td>Week 1</td>
+          <td>Introduction + setup + writing the first code</td>
+        </tr>
+        <tr>
+          <td> Week 2</td>
+          <td>Comments + Basic syntax + Functions</td>
+        </tr>
+      </tbody>
+  
+      <tbody>
+        <tr>
+          <td rowspan="2" style="font-weight: bold; font-size: 20px;">Module (2)</td>
+          <td>Week 3</td>
+          <td>Loops + Variables</td>
+        </tr>
+        <tr>
+          <td>Week 4</td>
+          <td>Continue and Break + Named parameters</td>
+        </tr>
+      </tbody>
+  
+      <tbody>
+        <tr>
+          <td rowspan="2" style="font-weight: bold; font-size: 20px;">Module (3)</td>
+          <td>Week 5</td>
+          <td>Recursion + Inheritance</td>
+        </tr>
+        <tr>
+          <td>Week 6</td>
+          <td>Modifiers + Abstract + IDEs</td>
+        </tr>
+      </tbody>
+  
+      <tbody>
+        <tr>
+          <td rowspan="2" style="font-weight: bold; font-size: 20px;">Module (4)</td>
+          <td>Week 7</td>
+          <td>Higher Order functions + Collections</td>
+        </tr>
+        <tr>
+          <td>Week 8</td>
+          <td>Hash + Null + scope functions</td>
+        </tr>
+      </tbody>
+  
+    </table>
+  </div>
+  <br><br><br>
+  
+  <iframe class="intro" id="iframe" src="https://www.youtube.com/embed/watch?v=VEqhzCFmEQI&list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  <p id="paragraph-id">
+    Got excited!! Don't miss your chance, Enroll now and keep learning <i class="fa-solid fa-bolt fa-bounce fa-sm" style="color: #ff0000;"></i>
+  </p>
+  </body>
+  
+  </html>

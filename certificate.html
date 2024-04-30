@@ -6,101 +6,147 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
+  
   <link rel="stylesheet" href="css folder/certificate.css">
-  <script src="js folder/kotlin.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="js folder/certificate.js" defer></script>
+   <script src="js folder/hanin.js"></script>
+  <button onclick="myFunction()">Dark mode</button>
 
 </head>
+
+
 <body>
-    <header>
-    <div style="font-size:50px; cursor:pointer;color: brown; position: absolute;  margin-left: 1340px; top: 0;"onclick="openfunction()">
-        &#9776;
+  <div class="topnav">
+   
+    <div style="font-size:50px;padding-left: 1200px;  cursor:pointer; color:white;" onclick="openfunction()" >&#9776; </div>
+    <div id="menu" class="sidemenu"  >
+      <a href="" class="closebtn">&times;</a>
+      <div class="all-menu">
+       <a href="index.html">Home</a>
+       <a href="FAQ.html">FAQ</a>
+       <a href="Applications.html">Applications</a>
+       <a href="payment.html">Payment</a>
+       <a href="profile.html">Profile</a>
+       <a href="feedback.html">FeedBack</a>
+       <a href="certificate.html">Certificate</a>
       </div>
-      <a class="logo" href="Log in.html" target="_blank">
-      <img class="logo" src="images/sign up.jpg" alt="" />
-      <div id="menu" class="sidemenu"  >
-        <a href="" class="closebtn">&times;</a>
-        <div class="all-menu">
-          <a href="index.html">Home</a>
-          <a href="FAQ.html">FAQ</a>
-          <a href="programmingLink.html">links</a>
-          <a href="payment.html">Payment</a>
-          <a href="profile.html">Profile</a>
-          <a href="feedback.html">FeedBack</a>
-        </div>
-         
-      </div>
-      <a href="index.html" style="color: rgb(94, 11, 122); font-size: 40px; text-decoration: none;position: absolute; top: 15px; left: 90px;">Coursaty</a>
-      <button style="position: relative; top: -35px;" onclick="toggleWhiteMode()">White Mode</button> 
-      <div class="profilemini">
-        <img class="profilemini" id="profile" src="images/girl.jpg" />
-        <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
-      </div>  
-    </header>
-    <nav>
-      <a href="#">php</a>
-      <a href="mysql.html">sql</a>
-      <a href="kotlin.html">Kotlin</a>
-      <a href="C.html">C</a>
-      <a href="c++.html">C++</a>
-      <a href="python.html">Python</a>
-      <a href="#">java script</a>
-    </nav>
-  <h1 class="headers">* About *</h1>
+    </div>  
+   
+    
+    <a href="index.html" style="color:rgb(196, 67, 239); font-size: 40px; text-decoration: none; position: absolute; top: 25px; left: 150px;">Coursaty</a>
+    <div class="profilemini">
+      <img class="profilemini" id="profile" src="images/girl.jpg">
+      <a class="profilemini" id='profilename' href="profile.html">Mariam Youssef</a>
+    </div> 
+    
+   
+
+  </div>
+
+  <div class="modal" id="popup">
+    <div class="modal-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <p>Thanks for your interest to know about us more! We wish we could have a great addition for the huge sea of TECH!</p>
+    </div>
+  </div>
+  
+
+  <div class="about">
+  <h1 class="headers"> About </h1>
   <p>A group at Helwan University's college of computer science and artificial intelligence established this website in 2024. It seeks to offer useful materials from many organizations for programming and technology courses. The website's goal is to be freely accessible and to spread its diverse information around the world.</p>
 <br>
+</div>
+  <br>
+<div class="auu">
+<h2>Still not sure you need to learn programming?</h2>
+<p>Listen how Mark Zuckerberg, Elon Mask, Bill gates and more answerd for this. </p>
 
-  <h2 class="headers">* partnership *</h2>
+<audio controls>
+  <source src="media/certifi.mp3" type="audio/mpeg">
+</audio>
+</div>
+<br><br><br>
+<div class="partenerr">
+  <h2 class="headers"> partnership </h2>
 
   <p>We are proud to collaborate with an esteemed network of partners who share our vision for advancing programming education. Through their support and expertise, we have been able to deliver high-quality courses and resources to learners around the globe. These valued partners represent a diverse range of organizations, including educational institutions, industry leaders, and community advocates. Together, we are making a meaningful impact on the future of technology by empowering individuals with the skills they need to succeed in the digital age.</p>
   <p class="bold">Here are our partenrs of success:</p>
 
+  <div class="partt">
   <a href="https://www.coursera.org">
-    <img class="part" src="800px-Coursera-Logo_600x600.svg.png" alt="coursera"></a>
+    <img src="images/coursera.jpg" alt="coursera"></a>
 
   <a href="https://www.udemy.com/">
-    <img class="part" src="udemy-logo-share.png" alt="Udemy"></a>
+    <img src="images/udemy.jpg" alt="Udemy"></a>
 
   <a href="https://www.youtube.com/@smartherd">
-    <img class="part" src="channels4_profile.jpg" alt="smartherd"></a>
+    <img src="images/smar.jpg" alt="smartherd"></a>
   
   <a href="https://www.youtube.com/@copycat8609">
-    <img class="part" src="3.jpg" alt="copycat"></a>
+    <img src="images/cat.jpg" alt="copycat"></a>
 
-  <img class="part" src="......" alt="...."><br>
-  <a href="...............">Click here to visit their website</a>
+  <a href="https://www.youtube.com/@ElzeroWebSchool">
+    <img src="images/elzero.jpg" alt="elzero"></a>
 
-  <img class="part" src="......" alt="...."><br>
-  <a href="...............">Click here to visit their website</a>
+  <a href="https://www.youtube.com/@learnplusplus-mahmoudkarem">
+    <img src="images/learn.jpg" alt="learnplusplus"></a>
 
-  <img class="part" src="......" alt="...."><br>
-  <a href="...............">Click here to visit their website</a>
 
-  <img class="part" src="......" alt="...."><br>
-  <a href="...............">Click here to visit their website</a>
+  <a href="https://www.youtube.com/">
+    <img src="images/youtube.jpg" alt="youtube"></a>
 
-  <img class="part" src="......" alt="...."><br>
-  <a href="...............">Click here to visit their website</a>
+  </div>
   <p>Kindly, press on any logo to be automatically directed to their websites or youtube channels.</p>
+
+</div>
+
   <br><br>
 
 
-  <h2 class="headers">* Certfication *</h2>
+
+
+<div class="allc">
+  <h2 class="headers"> Certfication </h2>
   <p>We are committed to providing you with high-quality programming resources delivered by experts in the field. Our team holds various industry-recognized certifications, ensuring that you receive reliable and up-to-date information. Here are some of the certifications held by our contributors:<ul>
- 
-    <li class="bold">AWS certified solutions Architect</li><br>
-    <img class="cert" src="1.png" alt="first"><br><br><br>
-
-    <li class="bold">Google professional cloud Architect</li><br>
-    <img class="cert" src="2.png" alt="second"><br><br><br>
-
-    <li class="bold">Microsoft certified</li><br>
-    <img class="cert" src="3.png" alt="third"><br><br><br>
-
-    <li class="bold">Cisco certified</li><br>
-    <img class="cert" src="4.png" alt="forth"><br><br><br>
-
-</ul></p>
+    <section class="cert">
+      
+      <details>
+        <summary>
+          AWS certified solutions Architect
+        </summary>
+        <img src="images/aws.jpg" alt="AWs">
+      </details>
+  
+      <details>
+        <summary>
+          Google professional cloud Architect
+        </summary>
+        <img src="images/google.jpg" alt="Google">    
+      </details>
+  
+      <details>
+        <summary>
+          Microsoft certified
+        </summary>
+        <img src="images/microsoft.jpg" alt="Microsoft">    
+      </details>
+  
+      <details>
+        <summary>
+          Cisco certified
+          
+        </summary>
+        <img src="images/cisco.jpg" alt="Cisco">    
+      </details>
+    </ul>
+    </section>
 <p>These certifications reflect our dedication to delivering authoritative content and resources to empower aspiring programmers and developers. We invite you to explore our platform and benefit from the expertise of our certified professionals.</p>
+</div>
 
 </body>
 </html>
